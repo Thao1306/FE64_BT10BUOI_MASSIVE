@@ -5061,11 +5061,11 @@ img {
 }
 
 .carousel .carousel-control-prev {
-  cursor: url("../../images/carousel/arrow_left.png"), auto;
+  cursor: url("./../img/carousel/arrow_left.png"), auto;
 }
 
 .carousel .carousel-control-next {
-  cursor: url("../../images/carousel/arrow_right.png"), auto;
+  cursor: url("./../img/carousel/arrow_right.png"), auto;
 }
 
 .carousel .sr-only,
@@ -5085,7 +5085,7 @@ img {
 }
 
 .skill {
-  background: url("./../../img/skill/parallax.jpg") no-repeat center center;
+  background: url("./../img/skill/parallax.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
