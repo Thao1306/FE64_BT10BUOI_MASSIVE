@@ -1,0 +1,146 @@
+// Begin Header
+.header {
+  background-color: $color-white;
+
+  transition: all 0.3s;
+
+  &.header-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 999;
+
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+  }
+}
+// End Header
+
+// Begin Navbar
+.navbar {
+  padding: 0;
+}
+
+.navbar-dark {
+  .navbar-nav {
+    max-height: 40rem;
+    overflow-y: auto;
+
+    .nav-link {
+      color: $color-black;
+      font-size: 1.3rem;
+      line-height: 2rem;
+      letter-spacing: 0.05rem;
+      text-transform: uppercase;
+
+      padding: 1.2rem 2rem;
+
+      border-top: solid 0.1rem $border-color;
+
+      transition: all 0.3s;
+
+      &:hover,
+      &:focus,
+      &.active {
+        color: $color-primary-light;
+      }
+    }
+  }
+
+  .navbar-brand {
+    padding: 0;
+    margin-right: 3rem;
+
+    .logo {
+      width: auto;
+      height: 5rem;
+
+      transition: all 0.3s;
+    }
+  }
+
+  .navbar-toggler {
+    border: 0;
+
+    padding: 0;
+
+    width: 2rem;
+
+    em {
+      background: $color-boulder;
+
+      width: 2rem;
+      height: 0.3rem;
+
+      float: right;
+
+      + em {
+        margin: 0.35rem 0 0;
+      }
+    }
+  }
+}
+// End Navbar
+
+// Begin @Media
+@media (min-width: 768px) {
+  // Begin Header
+  .header {
+    background-color: transparent;
+
+    &.header-overlay {
+      box-shadow: none;
+    }
+
+    &.header-sticky {
+      background: $color-white;
+      box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+
+      .navbar-dark {
+        .navbar-nav {
+          .nav-link {
+            padding: 0 1.2rem;
+          }
+        }
+
+        .navbar-brand {
+          .logo {
+            height: 6rem;
+          }
+        }
+      }
+    }
+  }
+  // End Header
+
+  // Begin Navbar
+  .navbar-expand-md {
+    flex-flow: row wrap;
+
+    .navbar-nav {
+      margin-left: auto;
+    }
+  }
+
+  .navbar-dark {
+    .navbar-nav {
+      max-height: 40rem;
+      overflow-y: auto;
+
+      .nav-link {
+        padding: 4rem 1.2rem;
+
+        border-top: 0;
+      }
+    }
+
+    .navbar-brand {
+      .logo {
+        height: 10rem;
+      }
+    }
+  }
+  // End Navbar
+}
+// End @Media

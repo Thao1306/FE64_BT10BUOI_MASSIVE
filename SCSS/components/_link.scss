@@ -1,0 +1,19 @@
+// Begin Link
+.link {
+  display: inline-block;
+
+  color: $color-shaft;
+
+  &:hover {
+    color: $color-shaft;
+    text-decoration: none;
+  }
+
+  &.link-primary {
+    &:hover {
+      color: $color-primary !important;
+      text-decoration: none;
+    }
+  }
+}
+// End Link

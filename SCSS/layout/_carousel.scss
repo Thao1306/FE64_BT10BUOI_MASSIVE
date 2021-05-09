@@ -1,0 +1,86 @@
+// Begin Carousel
+.carousel {
+  .carousel-item {
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100vh;
+    }
+
+    .carousel-info {
+      position: absolute;
+      top: 40%;
+      left: 12%;
+    }
+  }
+
+  .carousel-indicators {
+    align-items: center;
+
+    bottom: 2.2rem;
+
+    li {
+      background-color: rgba(0, 0, 0, 0);
+      background-clip: border-box;
+
+      border: 0.1rem solid $color-white;
+      border-radius: 50%;
+      box-sizing: border-box;
+
+      margin: 0.2rem;
+
+      width: 1rem;
+      height: 1rem;
+
+      opacity: 1;
+
+      transition: none;
+
+      &.active {
+        background-color: $color-white;
+
+        width: 1.2rem;
+        height: 1.2rem;
+      }
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 30%;
+  }
+
+  .carousel-control-prev {
+    cursor: url("../../images/carousel/arrow_left.png"), auto;
+  }
+
+  .carousel-control-next {
+    cursor: url("../../images/carousel/arrow_right.png"), auto;
+  }
+
+  .sr-only,
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: none;
+  }
+}
+// End Carousel
+
+// @Media
+@media (min-width: 768px) {
+  // Begin Carousel
+  .carousel {
+    .carousel-item {
+      img {
+        height: auto;
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      margin: 18rem 0 12rem;
+    }
+  }
+  // End Carousel
+}

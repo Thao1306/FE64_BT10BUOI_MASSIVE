@@ -1,0 +1,40 @@
+// Begin Skill
+.skill {
+  background: url("../../img/skill/parallax.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  width: 100%;
+  height: 65.7rem;
+
+  overflow: hidden;
+
+  position: relative;
+
+  .skill-overlay {
+    content: "";
+
+    display: none;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 50%;
+    height: 100%;
+  }
+}
+// End Skill
+
+// @Media
+@media (min-width: 768px) {
+  // Begin Skill
+  .skill {
+    .skill-overlay {
+      display: block;
+    }
+  }
+  // End Skill
+}

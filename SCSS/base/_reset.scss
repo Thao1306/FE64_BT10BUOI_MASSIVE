@@ -1,0 +1,43 @@
+// Begin Reset Default Browser
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+  color: $color-black;
+}
+
+dl,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+button:focus {
+  outline: none;
+}
+// End Reset Default Browser
+
+// Begin Reset Boostrap Properties
+.row {
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+}
+
+.container-fluid,
+[class^="col-"] {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+// End Reset Boostrap Properties
