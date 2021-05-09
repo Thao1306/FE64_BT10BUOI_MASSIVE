@@ -38,6 +38,34 @@
       width: 50%;
     }
   }
+
+  .promo-box {
+    background-color: $color-shaft;
+
+    padding: 6rem 0;
+
+    .btn-promo {
+      color: $color-white;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 0.4rem;
+
+      padding: 1.5rem 3rem;
+
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: $color-primary;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
 }
 // End Portfolio
 

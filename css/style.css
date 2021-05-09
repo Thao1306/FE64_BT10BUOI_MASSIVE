@@ -270,42 +270,6 @@
   margin-bottom: 5rem !important;
 }
 
-.py-60 {
-  padding-top: 6rem !important;
-  padding-bottom: 6rem !important;
-}
-
-.px-60 {
-  padding-left: 6rem !important;
-  padding-right: 6rem !important;
-}
-
-.pt-60 {
-  padding-top: 6rem !important;
-}
-
-.pb-60 {
-  padding-bottom: 6rem !important;
-}
-
-.mx-60 {
-  margin-left: 6rem !important;
-  margin-right: 6rem !important;
-}
-
-.my-60 {
-  margin-top: 6rem !important;
-  margin-bottom: 6rem !important;
-}
-
-.mt-60 {
-  margin-top: 6rem !important;
-}
-
-.mb-60 {
-  margin-bottom: 6rem !important;
-}
-
 .py-100 {
   padding-top: 10rem !important;
   padding-bottom: 10rem !important;
@@ -570,34 +534,6 @@
   }
   .mb-md-50 {
     margin-bottom: 5rem !important;
-  }
-  .py-md-60 {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-  }
-  .px-md-60 {
-    padding-left: 6rem !important;
-    padding-right: 6rem !important;
-  }
-  .pt-md-60 {
-    padding-top: 6rem !important;
-  }
-  .pb-md-60 {
-    padding-bottom: 6rem !important;
-  }
-  .mx-md-60 {
-    margin-left: 6rem !important;
-    margin-right: 6rem !important;
-  }
-  .my-md-60 {
-    margin-top: 6rem !important;
-    margin-bottom: 6rem !important;
-  }
-  .mt-md-60 {
-    margin-top: 6rem !important;
-  }
-  .mb-md-60 {
-    margin-bottom: 6rem !important;
   }
   .py-md-100 {
     padding-top: 10rem !important;
@@ -5197,6 +5133,30 @@ img {
 .portfolio .portfolio-list .portfolio-item {
   padding: 1rem;
   width: 50%;
+}
+
+.portfolio .promo-box {
+  background-color: #222;
+  padding: 6rem 0;
+}
+
+.portfolio .promo-box .btn-promo {
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.4rem;
+  padding: 1.5rem 3rem;
+  transition: all 0.3s;
+}
+
+.portfolio .promo-box .btn-promo:hover {
+  background-color: #d6b161;
+}
+
+.portfolio .promo-box .btn-promo:focus {
+  box-shadow: none;
 }
 
 @media (min-width: 768px) {

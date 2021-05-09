@@ -37,7 +37,7 @@ $fontWeightList: 300, 400, 500, 700, 900;
 // End Font Weight
 
 // Begin Margin & Padding
-$marginPaddingList: 0, 5, 10, 20, 25, 30, 50, 60, 100;
+$marginPaddingList: 0, 5, 10, 20, 25, 30, 50, 100;
 
 @each $number in $marginPaddingList {
   .py-#{$number} {
@@ -109,7 +109,7 @@ $letterList: 1, 2, 3, 4, 6;
 // @Media
 @media (min-width: 768px) {
   // Begin Margin & Padding
-  $marginPaddingList: 0, 5, 10, 20, 25, 30, 50, 60, 100;
+  $marginPaddingList: 0, 5, 10, 20, 25, 30, 50, 100;
 
   @each $number in $marginPaddingList {
     .py-md-#{$number} {
