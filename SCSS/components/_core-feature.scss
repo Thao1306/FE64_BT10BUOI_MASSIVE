@@ -4,6 +4,11 @@
   .title {
     @include title();
   }
+  @media screen and (max-width: 767px) {
+    .core-feature__content {
+      display: block !important;
+    }
+  }
 
   .core-feature__right {
     .content {
@@ -25,11 +30,10 @@
         padding: 1rem 1.5rem;
         transition: 0.3s;
         &.button__1 {
-        border: none;
-         
+          border: none;
+
           &:hover {
             background-color: #d6b161;
-           
           }
         }
       }
