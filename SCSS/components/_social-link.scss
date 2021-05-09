@@ -1,0 +1,17 @@
+// Begin Social
+.social-link {
+  a {
+    color: $color-shaft;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    margin: 0 1rem;
+
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+// End Social

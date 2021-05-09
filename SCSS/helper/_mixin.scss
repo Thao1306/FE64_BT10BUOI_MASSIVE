@@ -26,3 +26,127 @@
   background-color: white;
   transform: rotate(45deg);
 }
+// Begin Font Weight
+$fontWeightList: 300, 400, 500, 700, 900;
+
+@each $number in $fontWeightList {
+  .fw-#{$number} {
+    font-weight: $number !important;
+  }
+}
+// End Font Weight
+
+// Begin Margin & Padding
+$marginPaddingList: 0, 5, 10, 20, 25, 30, 50, 60, 100;
+
+@each $number in $marginPaddingList {
+  .py-#{$number} {
+    padding-top: $number/10 + rem !important;
+    padding-bottom: $number/10 + rem !important;
+  }
+
+  .px-#{$number} {
+    padding-left: $number/10 + rem !important;
+    padding-right: $number/10 + rem !important;
+  }
+
+  .pt-#{$number} {
+    padding-top: $number/10 + rem !important;
+  }
+
+  .pb-#{$number} {
+    padding-bottom: $number/10 + rem !important;
+  }
+
+  .mx-#{$number} {
+    margin-left: $number/10 + rem !important;
+    margin-right: $number/10 + rem !important;
+  }
+
+  .my-#{$number} {
+    margin-top: $number/10 + rem !important;
+    margin-bottom: $number/10 + rem !important;
+  }
+
+  .mt-#{$number} {
+    margin-top: $number/10 + rem !important;
+  }
+
+  .mb-#{$number} {
+    margin-bottom: $number/10 + rem !important;
+  }
+}
+// End Margin & Padding
+
+// Begin Width & Height
+$widthHeightList: 400;
+
+@each $number in $widthHeightList {
+  .h-#{$number} {
+    height: $number/10 + rem !important;
+  }
+
+  .min-h-#{$number} {
+    height: $number/10 + rem !important;
+  }
+
+  .max-h-#{$number} {
+    height: $number/10 + rem !important;
+  }
+}
+// End Width & Height
+
+// Begin Letter Spacing
+$letterList: 1, 2, 3, 4, 6;
+
+@each $number in $letterList {
+  .letter-spacing-#{$number} {
+    letter-spacing: $number/10 + rem !important;
+  }
+}
+// End Letter Spacing
+
+// @Media
+@media (min-width: 768px) {
+  // Begin Margin & Padding
+  $marginPaddingList: 0, 5, 10, 20, 25, 30, 50, 60, 100;
+
+  @each $number in $marginPaddingList {
+    .py-md-#{$number} {
+      padding-top: $number/10 + rem !important;
+      padding-bottom: $number/10 + rem !important;
+    }
+
+    .px-md-#{$number} {
+      padding-left: $number/10 + rem !important;
+      padding-right: $number/10 + rem !important;
+    }
+
+    .pt-md-#{$number} {
+      padding-top: $number/10 + rem !important;
+    }
+
+    .pb-md-#{$number} {
+      padding-bottom: $number/10 + rem !important;
+    }
+
+    .mx-md-#{$number} {
+      margin-left: $number/10 + rem !important;
+      margin-right: $number/10 + rem !important;
+    }
+
+    .my-md-#{$number} {
+      margin-top: $number/10 + rem !important;
+      margin-bottom: $number/10 + rem !important;
+    }
+
+    .mt-md-#{$number} {
+      margin-top: $number/10 + rem !important;
+    }
+
+    .mb-md-#{$number} {
+      margin-bottom: $number/10 + rem !important;
+    }
+  }
+  // End Margin & Padding
+}

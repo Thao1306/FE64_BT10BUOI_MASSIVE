@@ -1,0 +1,51 @@
+// Begin Portfolio
+.portfolio {
+  .portfolio-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .filter-item {
+      display: inline-block;
+
+      &__link {
+        color: $color-chalice;
+        font-size: 1.3rem;
+        letter-spacing: 0.3rem;
+        text-transform: uppercase;
+
+        display: inline-block;
+
+        margin: 0.9rem 1.5rem;
+
+        &:hover,
+        &.active {
+          color: $color-shaft;
+        }
+      }
+    }
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .portfolio-item {
+      padding: 1rem;
+    }
+  }
+}
+// End Portfolio
+
+// @Media
+@media (min-width: 768px) {
+  // Begin Portfolio
+  .portfolio {
+    .portfolio-list {
+      .portfolio-item {
+        width: 25%;
+      }
+    }
+  }
+  // End Portfolio
+}
