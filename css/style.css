@@ -1026,7 +1026,7 @@ button:focus {
   line-height: 2.1rem;
 }
 
-p {
+.text-desc {
   color: #7e7e7e;
   line-height: 3rem;
   margin: 0;
