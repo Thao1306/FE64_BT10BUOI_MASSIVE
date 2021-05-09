@@ -5180,6 +5180,7 @@ img {
   font-size: 1.3rem;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  cursor: pointer;
   display: inline-block;
   margin: 0.9rem 1.5rem;
 }
@@ -5195,9 +5196,13 @@ img {
 
 .portfolio .portfolio-list .portfolio-item {
   padding: 1rem;
+  width: 50%;
 }
 
 @media (min-width: 768px) {
+  .portfolio .portfolio-filter .filter-item__link {
+    margin: 0 1.5rem;
+  }
   .portfolio .portfolio-list .portfolio-item {
     width: 25%;
   }

@@ -32,19 +32,7 @@ $(".js-portfolio-popup2").magnificPopup({
 });
 
 /*==============================================
-  Add Sticky Header
+  Portfolio Filters
 ===============================================*/
-$(window).scroll(function () {
-  if ($(window).scrollTop() >= 100) {
-    $(".header").addClass("header-sticky");
-  } else {
-    $(".header").removeClass("header-sticky");
-  }
-});
-
-// Test
-// var containerEl = $(".js-portfolio-list");
-// var mixer = mixitup(containerEl);
-
-var containerEl = $(".portfolio-list");
-var mixer = mixitup(containerEl);
+var portfolioList = $(".js-portfolio-list");
+var mixer = mixitup(portfolioList);

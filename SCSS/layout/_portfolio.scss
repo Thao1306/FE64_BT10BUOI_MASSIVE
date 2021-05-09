@@ -14,6 +14,8 @@
         letter-spacing: 0.3rem;
         text-transform: uppercase;
 
+        cursor: pointer;
+
         display: inline-block;
 
         margin: 0.9rem 1.5rem;
@@ -32,6 +34,8 @@
 
     .portfolio-item {
       padding: 1rem;
+
+      width: 50%;
     }
   }
 }
@@ -41,6 +45,13 @@
 @media (min-width: 768px) {
   // Begin Portfolio
   .portfolio {
+    .portfolio-filter {
+      .filter-item {
+        &__link {
+          margin: 0 1.5rem;
+        }
+      }
+    }
     .portfolio-list {
       .portfolio-item {
         width: 25%;
