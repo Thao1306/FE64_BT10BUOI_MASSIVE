@@ -1,0 +1,59 @@
+#parallax {
+  .parallax__content {
+    background-image: url(./../../img/download.jpg);
+    @include parallax ();
+    .slick-dots {
+      bottom: 2rem;
+      inline-size: fit-content;
+      right: 6rem;
+      li button:before {
+        color: #eaeaea;
+        font-size: 13px;
+      }
+    }
+    .slick-prev, .slick-next {
+      display: none!important;
+    }
+    .parallax__detail {
+      position: relative;
+
+      .col-md-4 {
+        height: 535px;
+        img {
+          position: absolute;
+          bottom: 0;
+        }
+      }
+      .col-md-8 {
+        padding: 5rem 0 0 5rem;
+      }
+      h5 {
+        color: #d6b161;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 17px;
+      }
+      p {
+        font-style: italic;
+        padding: 1.5rem 0;
+      }
+      .btn-secondary {
+        background-color: #6c757d70;
+        border: none;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+        transition: 0.3s;
+        &:hover {
+          background-color: #d6b161;
+          cursor: pointer;
+        }
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

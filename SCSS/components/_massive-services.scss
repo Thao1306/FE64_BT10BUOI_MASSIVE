@@ -1,0 +1,32 @@
+#services {
+    margin: 5rem;
+    font-size: 14px;
+    .title {
+       @include title ();
+    }
+    .services__content {
+        i {
+            font-size: 2rem;
+            padding: 2.5rem;
+        }
+        h5 {
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-size: 18px;
+            margin: 0;
+        }
+        .services__detail {
+            transition: 0.3s;
+            &:hover {
+                background-color: black;
+                h5 {
+                    color: white;
+                }
+                i {
+                    color: #d6b161;
+                }
+            }
+        }
+    }  
+
+}

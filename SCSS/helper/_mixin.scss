@@ -1,0 +1,28 @@
+@mixin title() {
+  margin-bottom: 100px;
+  h4 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 100px;
+  }
+}
+@mixin parallax() {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@mixin blog__img() {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 15px;
+  width: 15px;
+  left: 50%;
+  background-color: white;
+  transform: rotate(45deg);
+}
