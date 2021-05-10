@@ -887,16 +887,8 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 10px;
-}
-
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  font-weight: 400;
-  color: #333;
 }
 
 dl,
