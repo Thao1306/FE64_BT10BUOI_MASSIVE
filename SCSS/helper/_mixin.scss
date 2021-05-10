@@ -158,3 +158,31 @@ $letterList: 1, 2, 3, 4, 6;
   }
   // End Margin & Padding
 }
+
+// ===== Chau ==== 
+@mixin form_h3 {
+  letter-spacing: 2px;
+}
+
+@mixin form_p {
+  width: 60%;
+  margin: 0 auto;
+  color: $color-p;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+@mixin form_h2 {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+@mixin bg {
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,37 @@
+#contact {
+  /* The image used */
+  background-image: url(".././img/15.jpg");
+
+ @include bg();
+  .row {
+    padding: 20px 0;
+  }
+  h3 {
+    color: $color-text-fff;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+  }
+  i {
+    color: $color-text-fff;
+    font-size: 38px;
+    padding-bottom: 30px;
+  }
+  p {
+    color: $color-text-fff !important;
+    @include form_p();
+  }
+}
+
+// .parallax {
+//   /* The image used */
+//   background-image: url("./../../img/15.jpg");
+
+//   /* Set a specific height */
+//   min-height: 500px;
+
+//   /* Create the parallax scrolling effect */
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }

@@ -1,0 +1,23 @@
+#new{
+    .new_content {
+        position: relative;
+        cursor: pointer;
+        .title{
+            position: absolute;
+            top: 10%;
+            left: 0;
+            color: $color-text-fff;
+            padding: 10%;
+            width:100%;
+            a{
+                text-decoration: none;
+                color: $color-text-fff;
+                h3{
+                    padding-bottom: 30px;
+                    line-height: 30px;
+                }
+            }
+          
+        }
+    }   
+}

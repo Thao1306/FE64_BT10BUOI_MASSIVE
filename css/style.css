@@ -887,6 +887,13 @@ button:focus {
   padding-left: 1.875rem;
 }
 
+.section1 {
+  padding: 100px 0;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+}
+
 .heading1,
 .heading2,
 .heading3,
@@ -1548,4 +1555,362 @@ img {
   .portfolio .portfolio-list .portfolio-item {
     width: 25%;
   }
+}
+
+#testimonail {
+  background-image: url(.././img/19.jpg);
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#testimonail .item img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#testimonail .item p {
+  width: 60%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  line-height: 25px;
+  padding-top: 30px;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#testimonail .item .test__text {
+  color: #fff;
+}
+
+#video h3 {
+  letter-spacing: 2px;
+}
+
+#video p {
+  width: 60%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+#video .video {
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+#new .new_content {
+  position: relative;
+  cursor: pointer;
+}
+
+#new .new_content .title {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  color: #fff;
+  padding: 10%;
+  width: 100%;
+}
+
+#new .new_content .title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#new .new_content .title a h3 {
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+#PRICE_TABLE .title h3 {
+  letter-spacing: 2px;
+}
+
+#PRICE_TABLE .title p {
+  width: 60%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+#PRICE_TABLE .price_content {
+  padding: 100px 0;
+}
+
+#PRICE_TABLE .price_content .table_item {
+  padding: 50px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+}
+
+#PRICE_TABLE .price_content .table_item h2 {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+#PRICE_TABLE .price_content .table_item .mid {
+  margin-bottom: 40px;
+  padding: 25px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#PRICE_TABLE .price_content .table_item .mid .dola {
+  font-size: 42px;
+}
+
+#PRICE_TABLE .price_content .table_item .mid p {
+  font-size: 12px;
+}
+
+#PRICE_TABLE .price_content .table_item .bot ul {
+  margin-bottom: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+#PRICE_TABLE .price_content .table_item .bot ul li {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+#PRICE_TABLE .price_content .table_item .bot a {
+  display: inherit;
+  padding: 15px 20px;
+  color: #222;
+  border: 1px solid #e5e5e5;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+#PRICE_TABLE .price_content .table_item .bot a:hover {
+  color: #fff;
+  background-color: black;
+}
+
+#PRICE_TABLE .price_content .predium {
+  background-color: #222;
+}
+
+#PRICE_TABLE .price_content .predium h2 {
+  color: #d6b161;
+}
+
+#PRICE_TABLE .price_content .predium .mid .dola {
+  color: #fff;
+}
+
+#PRICE_TABLE .price_content .predium .mid p {
+  color: #fff;
+}
+
+#PRICE_TABLE .price_content .predium .bot a {
+  background-color: #fff;
+}
+
+#PRICE_TABLE .price_content .predium .bot a:hover {
+  background-color: #d6b161;
+}
+
+#PRICE_TABLE .price_content .predium .bot li {
+  color: #7e7e7e !important;
+}
+
+#subscribe {
+  background-color: #f8f8f8;
+}
+
+#subscribe h3 {
+  letter-spacing: 2px;
+  color: #d6b161;
+}
+
+#subscribe p {
+  width: 60%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  line-height: 25px;
+  padding-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 0;
+}
+
+#subscribe .text {
+  margin-bottom: 50px;
+}
+
+#subscribe form {
+  align-items: center;
+  justify-content: center;
+}
+
+#subscribe form input {
+  width: 50%;
+  height: 52px;
+  box-shadow: none;
+  background: #fff;
+  border: none;
+}
+
+#subscribe form button {
+  background-color: #222;
+  color: #fff;
+  margin: 0 10px;
+  padding: 13px;
+}
+
+#subscribe form button:hover {
+  background-color: black;
+}
+
+#our h3 {
+  letter-spacing: 2px;
+}
+
+#our p {
+  width: 60%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+#our .our_content {
+  margin-top: 60px;
+}
+
+#our .owl-nav {
+  display: none;
+}
+
+#our .text {
+  margin-bottom: 50px;
+}
+
+#contact {
+  /* The image used */
+  background-image: url(".././img/15.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact .row {
+  padding: 20px 0;
+}
+
+#contact h3 {
+  color: #fff;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+#contact i {
+  color: #fff;
+  font-size: 38px;
+  padding-bottom: 30px;
+}
+
+#contact p {
+  color: #fff !important;
+  width: 60%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+#drop_line h3 {
+  letter-spacing: 2px;
+}
+
+#drop_line p {
+  width: 60%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+#drop_line .btn_send {
+  color: #fff;
+  background-color: #222;
+  width: 100%;
+}
+
+#drop_line .btn_send:hover {
+  background-color: #d6b161;
+}
+
+#drop_line input:focus,
+#drop_line textarea:focus {
+  box-shadow: none;
+  border-color: black;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+}
+
+footer img {
+  height: 100px;
+  width: auto;
+}
+
+footer p {
+  font-size: 12px;
+  color: #222;
+  letter-spacing: 2px;
+  margin: 15px 0;
+}
+
+footer i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px !important;
+  text-align: center;
+  border: 1px solid #222;
+  border-radius: 50%;
+  color: #222;
+}
+
+footer i:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+footer a {
+  margin: 10px;
+}
+
+footer .footer_icon {
+  margin: 80px 0;
+}
+
+footer .massive_2014 {
+  letter-spacing: 2px;
+  color: #000;
+  font-size: 14px;
+}
+
+footer .lots_of_fun {
+  letter-spacing: 2px;
+  font-size: 12px;
 }

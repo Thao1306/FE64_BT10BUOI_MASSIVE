@@ -1,0 +1,81 @@
+#PRICE_TABLE {
+  .title {
+    h3 {
+      @include form_h3();
+    }
+    p {
+      @include form_p();
+    }
+  }
+  .price_content {
+    padding: 100px 0;
+    .table_item {
+      padding: 50px;
+      border: 1px solid $color-border-1;
+      background: $color-text-fff;
+      h2 {
+        @include form_h2();
+      }
+      .mid {
+        margin-bottom: 40px;
+        padding: 25px 0;
+        border-top: 1px solid $color-border-2;
+        border-bottom: 1px solid $color-border-2;
+        .dola {
+          font-size: 42px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .bot {
+        ul {
+          margin-bottom: 40px;
+          padding: 0;
+          list-style: none;
+          li {
+            margin-bottom: 15px;
+            color: #222;
+          }
+        }
+        a {
+          display: inherit;
+          padding: 15px 20px;
+          color: #222;
+          border: 1px solid $color-border-2;
+          text-decoration: none;
+          transition: all 0.5s;
+        }
+        a:hover {
+          color: $color-text-fff;
+          background-color: black;
+        }
+      }
+    }
+    .predium {
+      background-color: #222;
+      h2 {
+        color: $color-text-gold ;
+      }
+      .mid {
+        .dola {
+          color: $color-text-fff;
+        }
+        p {
+          color: $color-text-fff;
+        }
+      }
+      .bot {
+        a {          
+          background-color: $color-text-fff;
+        }
+        a:hover{
+            background-color: $color-text-gold ;
+        }
+        li {
+          color: $color-p !important;
+        }
+      }
+    }
+  }
+}

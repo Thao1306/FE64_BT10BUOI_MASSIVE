@@ -1,0 +1,36 @@
+#subscribe{
+    background-color: $color-bg-f8f8f8;
+    h3{
+        @include form_h3();
+        color: $color-text-gold;
+    }
+    p{
+        @include form_p();
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-top: 0;
+    }
+    .text{
+        margin-bottom: 50px;
+    }
+    form{
+        align-items: center;
+        justify-content: center;
+        input{
+            width: 50%;
+            height: 52px;
+            box-shadow: none;
+            background: $color-text-fff;
+            border: none;
+        }
+        button{
+            background-color: #222;
+            color: $color-text-fff;
+            margin: 0 10px;
+            padding: 13px;
+        }
+        button:hover {
+            background-color: black;
+        }
+    }
+}

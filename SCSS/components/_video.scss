@@ -1,0 +1,12 @@
+#video{
+    h3{
+        @include form_h3();
+    };
+    p {
+        @include form_p();
+    };
+    .video {
+        padding-top: 100px ;
+        margin: 0 auto;
+    }
+};

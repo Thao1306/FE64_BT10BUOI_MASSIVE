@@ -1,0 +1,22 @@
+#drop_line {
+
+  h3 {
+    @include form_h3();
+  }
+  p {
+    @include form_p();
+  }
+  .btn_send {
+    color: $color-text-fff;
+    background-color: #222;
+    width: 100%;
+  }
+  .btn_send:hover{
+    background-color: $color-text-gold;
+  }
+  input:focus,
+  textarea:focus {
+    box-shadow: none;
+    border-color: black;
+  }
+}
