@@ -1,0 +1,77 @@
+// Begin Progress
+.progress {
+  font-size: calc-rem(10px);
+  line-height: calc-rem(20px);
+
+  background-color: $color-scorpion;
+  border-radius: 0;
+
+  height: calc-rem(20px);
+
+  overflow: visible;
+
+  + .progress {
+    margin: calc-rem(50px) 0 0;
+  }
+
+  .progress-bar {
+    color: $color-shaft;
+
+    letter-spacing: calc-rem(1px);
+    text-transform: uppercase;
+    text-align: left;
+
+    background-color: $color-white;
+
+    padding: 0 0 0 calc-rem(10px);
+
+    position: relative;
+
+    width: 0;
+
+    transition: width 0.6s ease;
+
+    .percentage {
+      text-align: center;
+      line-height: calc-rem(20px);
+
+      display: inline-block;
+
+      background-color: $color-silver-chalice;
+      border-radius: calc-rem(30px);
+
+      padding: 0 calc-rem(8px);
+
+      position: absolute;
+      top: calc-rem(-28px);
+      right: calc-rem(-5px);
+
+      min-width: calc-rem(25px);
+      height: calc-rem(20px);
+
+      &::before {
+        content: "";
+
+        display: inline-block;
+
+        background-color: $color-silver-chalice;
+        border-color: $color-silver-chalice;
+        border-right: calc-rem(1px) solid $color-silver-chalice;
+
+        width: calc-rem(5px);
+        height: calc-rem(5px);
+
+        position: absolute;
+        bottom: calc-rem(-2px);
+        left: 50%;
+        margin: 0 0 0 calc-rem(-2.5px);
+
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+// End Progress
