@@ -1,5 +1,5 @@
 #blog {
-  margin: 5rem;
+  // margin: 5rem;
   font-size: 14px;
   .title {
     @include title();
@@ -27,6 +27,9 @@
       padding: 0 3rem;
       font-size: 11px;
       cursor: pointer;
+      @media screen and (max-width: 767px) {
+        padding: 4rem 0;
+      }
       h6 {
         font-weight: 400;
         padding: 1.5rem 0;

@@ -10,15 +10,15 @@
 
       &__link {
         color: $color-chalice;
-        font-size: 1.3rem;
-        letter-spacing: 0.3rem;
+        font-size: calc-rem(13px);
+        letter-spacing: calc-rem(3px);
         text-transform: uppercase;
 
         cursor: pointer;
 
         display: inline-block;
 
-        margin: 0.9rem 1.5rem;
+        margin: calc-rem(9px) calc-rem(15px);
 
         &:hover,
         &.active {
@@ -33,7 +33,7 @@
     flex-wrap: wrap;
 
     .portfolio-item {
-      padding: 1rem;
+      padding: calc-rem(10px);
 
       width: 50%;
     }
@@ -42,18 +42,18 @@
   .promo-box {
     background-color: $color-shaft;
 
-    padding: 6rem 0;
+    padding: calc-rem(60px) 0;
 
     .btn-promo {
       color: $color-white;
-      font-size: 1.2rem;
+      font-size: calc-rem(12px);
       text-transform: uppercase;
-      letter-spacing: 0.1rem;
+      letter-spacing: calc-rem(1px);
 
       background: rgba(255, 255, 255, 0.2);
-      border-radius: 0.4rem;
+      border-radius: calc-rem(4px);
 
-      padding: 1.5rem 3rem;
+      padding: calc-rem(15px) calc-rem(30px);
 
       transition: all 0.3s;
 
@@ -76,7 +76,7 @@
     .portfolio-filter {
       .filter-item {
         &__link {
-          margin: 0 1.5rem;
+          margin: 0 calc-rem(15px);
         }
       }
     }

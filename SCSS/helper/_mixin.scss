@@ -1,14 +1,12 @@
-@mixin title() {
-  margin-bottom: 100px;
+// massive__blog, core-feature, blog :  Title
+@mixin title() {  
   h4 {
     font-weight: 400;
     letter-spacing: 2px;
     padding-bottom: 25px;
-  }
-  @media screen and (max-width: 767px) {
-    margin-bottom: 100px;
-  }
+  }  
 }
+// Parallax-slider
 @mixin parallax() {
   height: 100%;
   background-attachment: fixed;
@@ -16,6 +14,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+// Blog
 @mixin blog__img() {
   content: "";
   position: absolute;
@@ -26,6 +25,15 @@
   background-color: white;
   transform: rotate(45deg);
 }
+
+// Begin Function Caculate To Rem
+@function calc-rem($size) {
+  $remSize: $size / 16px;
+
+  @return #{$remSize}rem;
+}
+// End Function Caculate To Rem
+
 // Begin Font Weight
 $fontWeightList: 300, 400, 500, 700, 900;
 
@@ -41,39 +49,39 @@ $marginPaddingList: 0, 5, 10, 20, 25, 30, 50, 100;
 
 @each $number in $marginPaddingList {
   .py-#{$number} {
-    padding-top: $number/10 + rem !important;
-    padding-bottom: $number/10 + rem !important;
+    padding-top: $number/16 + rem !important;
+    padding-bottom: $number/16 + rem !important;
   }
 
   .px-#{$number} {
-    padding-left: $number/10 + rem !important;
-    padding-right: $number/10 + rem !important;
+    padding-left: $number/16 + rem !important;
+    padding-right: $number/16 + rem !important;
   }
 
   .pt-#{$number} {
-    padding-top: $number/10 + rem !important;
+    padding-top: $number/16 + rem !important;
   }
 
   .pb-#{$number} {
-    padding-bottom: $number/10 + rem !important;
+    padding-bottom: $number/16 + rem !important;
   }
 
   .mx-#{$number} {
-    margin-left: $number/10 + rem !important;
-    margin-right: $number/10 + rem !important;
+    margin-left: $number/16 + rem !important;
+    margin-right: $number/16 + rem !important;
   }
 
   .my-#{$number} {
-    margin-top: $number/10 + rem !important;
-    margin-bottom: $number/10 + rem !important;
+    margin-top: $number/16 + rem !important;
+    margin-bottom: $number/16 + rem !important;
   }
 
   .mt-#{$number} {
-    margin-top: $number/10 + rem !important;
+    margin-top: $number/16 + rem !important;
   }
 
   .mb-#{$number} {
-    margin-bottom: $number/10 + rem !important;
+    margin-bottom: $number/16 + rem !important;
   }
 }
 // End Margin & Padding
@@ -83,15 +91,15 @@ $widthHeightList: 400;
 
 @each $number in $widthHeightList {
   .h-#{$number} {
-    height: $number/10 + rem !important;
+    height: $number/16 + rem !important;
   }
 
   .min-h-#{$number} {
-    height: $number/10 + rem !important;
+    height: $number/16 + rem !important;
   }
 
   .max-h-#{$number} {
-    height: $number/10 + rem !important;
+    height: $number/16 + rem !important;
   }
 }
 // End Width & Height
@@ -101,7 +109,7 @@ $letterList: 1, 2, 3, 4, 6;
 
 @each $number in $letterList {
   .letter-spacing-#{$number} {
-    letter-spacing: $number/10 + rem !important;
+    letter-spacing: $number/16 + rem !important;
   }
 }
 // End Letter Spacing
@@ -113,39 +121,39 @@ $letterList: 1, 2, 3, 4, 6;
 
   @each $number in $marginPaddingList {
     .py-md-#{$number} {
-      padding-top: $number/10 + rem !important;
-      padding-bottom: $number/10 + rem !important;
+      padding-top: $number/16 + rem !important;
+      padding-bottom: $number/16 + rem !important;
     }
 
     .px-md-#{$number} {
-      padding-left: $number/10 + rem !important;
-      padding-right: $number/10 + rem !important;
+      padding-left: $number/16 + rem !important;
+      padding-right: $number/16 + rem !important;
     }
 
     .pt-md-#{$number} {
-      padding-top: $number/10 + rem !important;
+      padding-top: $number/16 + rem !important;
     }
 
     .pb-md-#{$number} {
-      padding-bottom: $number/10 + rem !important;
+      padding-bottom: $number/16 + rem !important;
     }
 
     .mx-md-#{$number} {
-      margin-left: $number/10 + rem !important;
-      margin-right: $number/10 + rem !important;
+      margin-left: $number/16 + rem !important;
+      margin-right: $number/16 + rem !important;
     }
 
     .my-md-#{$number} {
-      margin-top: $number/10 + rem !important;
-      margin-bottom: $number/10 + rem !important;
+      margin-top: $number/16 + rem !important;
+      margin-bottom: $number/16 + rem !important;
     }
 
     .mt-md-#{$number} {
-      margin-top: $number/10 + rem !important;
+      margin-top: $number/16 + rem !important;
     }
 
     .mb-md-#{$number} {
-      margin-bottom: $number/10 + rem !important;
+      margin-bottom: $number/16 + rem !important;
     }
   }
   // End Margin & Padding

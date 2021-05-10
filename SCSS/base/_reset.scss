@@ -9,12 +9,8 @@ html {
   font-size: 10px;
 }
 
-body{
+body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  font-weight: 400;
-  color: $color-black;
 }
 
 dl,
@@ -31,14 +27,14 @@ button:focus {
 
 // Begin Reset Boostrap Properties
 .row {
-  margin-right: -1.5rem;
-  margin-left: -1.5rem;
+  margin-right: calc-rem(-30px);
+  margin-left: calc-rem(-30px);
 }
 
 .container-fluid,
 [class^="col-"] {
-  padding-right: 3rem;
-  padding-left: 3rem;
+  padding-right: calc-rem(30px);
+  padding-left: calc-rem(30px);
 }
 // End Reset Boostrap Properties
 
