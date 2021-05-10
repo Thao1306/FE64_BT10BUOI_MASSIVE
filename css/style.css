@@ -861,10 +861,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 10px;
-}
-
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -1198,6 +1194,18 @@ img {
   border-radius: 0;
   height: 1.25rem;
   overflow: visible;
+}
+
+.progress.active .progress-bar.per-80 {
+  width: 80%;
+}
+
+.progress.active .progress-bar.per-90 {
+  width: 90%;
+}
+
+.progress.active .progress-bar.per-75 {
+  width: 75%;
 }
 
 .progress + .progress {
