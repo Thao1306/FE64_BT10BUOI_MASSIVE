@@ -1,0 +1,17 @@
+#our{
+    h3{
+        @include form_h3();
+    }
+    p{
+        @include form_p();
+    }
+    .our_content{
+        margin-top: 60px;
+    }
+    .owl-nav{
+        display: none;
+    }
+    .text{
+        margin-bottom: 50px;
+    }
+}

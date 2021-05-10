@@ -9,7 +9,7 @@ html {
   font-size: 10px;
 }
 
-body {
+body{
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5rem;
   line-height: 2.25rem;
@@ -41,3 +41,11 @@ button:focus {
   padding-left: 3rem;
 }
 // End Reset Boostrap Properties
+
+// chau 
+.section1 {
+  padding: 100px 0;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+}

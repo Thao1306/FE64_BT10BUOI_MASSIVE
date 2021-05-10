@@ -1,0 +1,42 @@
+footer {
+  background-color: $color-bg-f5f5f5;
+  padding: 80px 0;
+  img {
+    height: 100px;
+    width: auto;
+  }
+  p {
+    font-size: 12px;
+    color: #222;
+    letter-spacing: 2px;
+    margin: 15px 0;
+  }
+  i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px !important;
+    text-align: center;
+    border: 1px solid #222;
+    border-radius: 50%;    
+    color: #222;    
+  }
+  i:hover{
+    background-color: #000;
+    color: $color-text-fff;
+  }
+  a{
+      margin: 10px;
+  }
+  .footer_icon{
+      margin: 80px 0 ;
+  }
+  .massive_2014{
+      letter-spacing: 2px;
+      color: #000;
+      font-size: 14px;
+  }
+  .lots_of_fun{
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+}
