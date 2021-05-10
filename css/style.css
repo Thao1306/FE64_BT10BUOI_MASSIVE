@@ -55,287 +55,287 @@
 }
 
 .py-5 {
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
+  padding-top: 0.3125rem !important;
+  padding-bottom: 0.3125rem !important;
 }
 
 .px-5 {
-  padding-left: 0.5rem !important;
-  padding-right: 0.5rem !important;
+  padding-left: 0.3125rem !important;
+  padding-right: 0.3125rem !important;
 }
 
 .pt-5 {
-  padding-top: 0.5rem !important;
+  padding-top: 0.3125rem !important;
 }
 
 .pb-5 {
-  padding-bottom: 0.5rem !important;
+  padding-bottom: 0.3125rem !important;
 }
 
 .mx-5 {
-  margin-left: 0.5rem !important;
-  margin-right: 0.5rem !important;
+  margin-left: 0.3125rem !important;
+  margin-right: 0.3125rem !important;
 }
 
 .my-5 {
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
+  margin-top: 0.3125rem !important;
+  margin-bottom: 0.3125rem !important;
 }
 
 .mt-5 {
-  margin-top: 0.5rem !important;
+  margin-top: 0.3125rem !important;
 }
 
 .mb-5 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0.3125rem !important;
 }
 
 .py-10 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding-top: 0.625rem !important;
+  padding-bottom: 0.625rem !important;
 }
 
 .px-10 {
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-left: 0.625rem !important;
+  padding-right: 0.625rem !important;
 }
 
 .pt-10 {
-  padding-top: 1rem !important;
+  padding-top: 0.625rem !important;
 }
 
 .pb-10 {
-  padding-bottom: 1rem !important;
+  padding-bottom: 0.625rem !important;
 }
 
 .mx-10 {
-  margin-left: 1rem !important;
-  margin-right: 1rem !important;
+  margin-left: 0.625rem !important;
+  margin-right: 0.625rem !important;
 }
 
 .my-10 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+  margin-top: 0.625rem !important;
+  margin-bottom: 0.625rem !important;
 }
 
 .mt-10 {
-  margin-top: 1rem !important;
+  margin-top: 0.625rem !important;
 }
 
 .mb-10 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.625rem !important;
 }
 
 .py-20 {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
 }
 
 .px-20 {
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
 }
 
 .pt-20 {
-  padding-top: 2rem !important;
+  padding-top: 1.25rem !important;
 }
 
 .pb-20 {
-  padding-bottom: 2rem !important;
+  padding-bottom: 1.25rem !important;
 }
 
 .mx-20 {
-  margin-left: 2rem !important;
-  margin-right: 2rem !important;
+  margin-left: 1.25rem !important;
+  margin-right: 1.25rem !important;
 }
 
 .my-20 {
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
 }
 
 .mt-20 {
-  margin-top: 2rem !important;
+  margin-top: 1.25rem !important;
 }
 
 .mb-20 {
-  margin-bottom: 2rem !important;
+  margin-bottom: 1.25rem !important;
 }
 
 .py-25 {
-  padding-top: 2.5rem !important;
-  padding-bottom: 2.5rem !important;
+  padding-top: 1.5625rem !important;
+  padding-bottom: 1.5625rem !important;
 }
 
 .px-25 {
-  padding-left: 2.5rem !important;
-  padding-right: 2.5rem !important;
+  padding-left: 1.5625rem !important;
+  padding-right: 1.5625rem !important;
 }
 
 .pt-25 {
-  padding-top: 2.5rem !important;
+  padding-top: 1.5625rem !important;
 }
 
 .pb-25 {
-  padding-bottom: 2.5rem !important;
+  padding-bottom: 1.5625rem !important;
 }
 
 .mx-25 {
-  margin-left: 2.5rem !important;
-  margin-right: 2.5rem !important;
+  margin-left: 1.5625rem !important;
+  margin-right: 1.5625rem !important;
 }
 
 .my-25 {
-  margin-top: 2.5rem !important;
-  margin-bottom: 2.5rem !important;
+  margin-top: 1.5625rem !important;
+  margin-bottom: 1.5625rem !important;
 }
 
 .mt-25 {
-  margin-top: 2.5rem !important;
+  margin-top: 1.5625rem !important;
 }
 
 .mb-25 {
-  margin-bottom: 2.5rem !important;
+  margin-bottom: 1.5625rem !important;
 }
 
 .py-30 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 1.875rem !important;
+  padding-bottom: 1.875rem !important;
 }
 
 .px-30 {
-  padding-left: 3rem !important;
-  padding-right: 3rem !important;
+  padding-left: 1.875rem !important;
+  padding-right: 1.875rem !important;
 }
 
 .pt-30 {
-  padding-top: 3rem !important;
+  padding-top: 1.875rem !important;
 }
 
 .pb-30 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1.875rem !important;
 }
 
 .mx-30 {
-  margin-left: 3rem !important;
-  margin-right: 3rem !important;
+  margin-left: 1.875rem !important;
+  margin-right: 1.875rem !important;
 }
 
 .my-30 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important;
+  margin-top: 1.875rem !important;
+  margin-bottom: 1.875rem !important;
 }
 
 .mt-30 {
-  margin-top: 3rem !important;
+  margin-top: 1.875rem !important;
 }
 
 .mb-30 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1.875rem !important;
 }
 
 .py-50 {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 3.125rem !important;
+  padding-bottom: 3.125rem !important;
 }
 
 .px-50 {
-  padding-left: 5rem !important;
-  padding-right: 5rem !important;
+  padding-left: 3.125rem !important;
+  padding-right: 3.125rem !important;
 }
 
 .pt-50 {
-  padding-top: 5rem !important;
+  padding-top: 3.125rem !important;
 }
 
 .pb-50 {
-  padding-bottom: 5rem !important;
+  padding-bottom: 3.125rem !important;
 }
 
 .mx-50 {
-  margin-left: 5rem !important;
-  margin-right: 5rem !important;
+  margin-left: 3.125rem !important;
+  margin-right: 3.125rem !important;
 }
 
 .my-50 {
-  margin-top: 5rem !important;
-  margin-bottom: 5rem !important;
+  margin-top: 3.125rem !important;
+  margin-bottom: 3.125rem !important;
 }
 
 .mt-50 {
-  margin-top: 5rem !important;
+  margin-top: 3.125rem !important;
 }
 
 .mb-50 {
-  margin-bottom: 5rem !important;
+  margin-bottom: 3.125rem !important;
 }
 
 .py-100 {
-  padding-top: 10rem !important;
-  padding-bottom: 10rem !important;
+  padding-top: 6.25rem !important;
+  padding-bottom: 6.25rem !important;
 }
 
 .px-100 {
-  padding-left: 10rem !important;
-  padding-right: 10rem !important;
+  padding-left: 6.25rem !important;
+  padding-right: 6.25rem !important;
 }
 
 .pt-100 {
-  padding-top: 10rem !important;
+  padding-top: 6.25rem !important;
 }
 
 .pb-100 {
-  padding-bottom: 10rem !important;
+  padding-bottom: 6.25rem !important;
 }
 
 .mx-100 {
-  margin-left: 10rem !important;
-  margin-right: 10rem !important;
+  margin-left: 6.25rem !important;
+  margin-right: 6.25rem !important;
 }
 
 .my-100 {
-  margin-top: 10rem !important;
-  margin-bottom: 10rem !important;
+  margin-top: 6.25rem !important;
+  margin-bottom: 6.25rem !important;
 }
 
 .mt-100 {
-  margin-top: 10rem !important;
+  margin-top: 6.25rem !important;
 }
 
 .mb-100 {
-  margin-bottom: 10rem !important;
+  margin-bottom: 6.25rem !important;
 }
 
 .h-400 {
-  height: 40rem !important;
+  height: 25rem !important;
 }
 
 .min-h-400 {
-  height: 40rem !important;
+  height: 25rem !important;
 }
 
 .max-h-400 {
-  height: 40rem !important;
+  height: 25rem !important;
 }
 
 .letter-spacing-1 {
-  letter-spacing: 0.1rem !important;
+  letter-spacing: 0.0625rem !important;
 }
 
 .letter-spacing-2 {
-  letter-spacing: 0.2rem !important;
+  letter-spacing: 0.125rem !important;
 }
 
 .letter-spacing-3 {
-  letter-spacing: 0.3rem !important;
+  letter-spacing: 0.1875rem !important;
 }
 
 .letter-spacing-4 {
-  letter-spacing: 0.4rem !important;
+  letter-spacing: 0.25rem !important;
 }
 
 .letter-spacing-6 {
-  letter-spacing: 0.6rem !important;
+  letter-spacing: 0.375rem !important;
 }
 
 @media (min-width: 768px) {
@@ -368,200 +368,200 @@
     margin-bottom: 0rem !important;
   }
   .py-md-5 {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 0.3125rem !important;
+    padding-bottom: 0.3125rem !important;
   }
   .px-md-5 {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
+    padding-left: 0.3125rem !important;
+    padding-right: 0.3125rem !important;
   }
   .pt-md-5 {
-    padding-top: 0.5rem !important;
+    padding-top: 0.3125rem !important;
   }
   .pb-md-5 {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 0.3125rem !important;
   }
   .mx-md-5 {
-    margin-left: 0.5rem !important;
-    margin-right: 0.5rem !important;
+    margin-left: 0.3125rem !important;
+    margin-right: 0.3125rem !important;
   }
   .my-md-5 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-top: 0.3125rem !important;
+    margin-bottom: 0.3125rem !important;
   }
   .mt-md-5 {
-    margin-top: 0.5rem !important;
+    margin-top: 0.3125rem !important;
   }
   .mb-md-5 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.3125rem !important;
   }
   .py-md-10 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 0.625rem !important;
+    padding-bottom: 0.625rem !important;
   }
   .px-md-10 {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 0.625rem !important;
+    padding-right: 0.625rem !important;
   }
   .pt-md-10 {
-    padding-top: 1rem !important;
+    padding-top: 0.625rem !important;
   }
   .pb-md-10 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 0.625rem !important;
   }
   .mx-md-10 {
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
+    margin-left: 0.625rem !important;
+    margin-right: 0.625rem !important;
   }
   .my-md-10 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 0.625rem !important;
+    margin-bottom: 0.625rem !important;
   }
   .mt-md-10 {
-    margin-top: 1rem !important;
+    margin-top: 0.625rem !important;
   }
   .mb-md-10 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 0.625rem !important;
   }
   .py-md-20 {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
   }
   .px-md-20 {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
   }
   .pt-md-20 {
-    padding-top: 2rem !important;
+    padding-top: 1.25rem !important;
   }
   .pb-md-20 {
-    padding-bottom: 2rem !important;
+    padding-bottom: 1.25rem !important;
   }
   .mx-md-20 {
-    margin-left: 2rem !important;
-    margin-right: 2rem !important;
+    margin-left: 1.25rem !important;
+    margin-right: 1.25rem !important;
   }
   .my-md-20 {
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important;
   }
   .mt-md-20 {
-    margin-top: 2rem !important;
+    margin-top: 1.25rem !important;
   }
   .mb-md-20 {
-    margin-bottom: 2rem !important;
+    margin-bottom: 1.25rem !important;
   }
   .py-md-25 {
-    padding-top: 2.5rem !important;
-    padding-bottom: 2.5rem !important;
+    padding-top: 1.5625rem !important;
+    padding-bottom: 1.5625rem !important;
   }
   .px-md-25 {
-    padding-left: 2.5rem !important;
-    padding-right: 2.5rem !important;
+    padding-left: 1.5625rem !important;
+    padding-right: 1.5625rem !important;
   }
   .pt-md-25 {
-    padding-top: 2.5rem !important;
+    padding-top: 1.5625rem !important;
   }
   .pb-md-25 {
-    padding-bottom: 2.5rem !important;
+    padding-bottom: 1.5625rem !important;
   }
   .mx-md-25 {
-    margin-left: 2.5rem !important;
-    margin-right: 2.5rem !important;
+    margin-left: 1.5625rem !important;
+    margin-right: 1.5625rem !important;
   }
   .my-md-25 {
-    margin-top: 2.5rem !important;
-    margin-bottom: 2.5rem !important;
+    margin-top: 1.5625rem !important;
+    margin-bottom: 1.5625rem !important;
   }
   .mt-md-25 {
-    margin-top: 2.5rem !important;
+    margin-top: 1.5625rem !important;
   }
   .mb-md-25 {
-    margin-bottom: 2.5rem !important;
+    margin-bottom: 1.5625rem !important;
   }
   .py-md-30 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
   }
   .px-md-30 {
-    padding-left: 3rem !important;
-    padding-right: 3rem !important;
+    padding-left: 1.875rem !important;
+    padding-right: 1.875rem !important;
   }
   .pt-md-30 {
-    padding-top: 3rem !important;
+    padding-top: 1.875rem !important;
   }
   .pb-md-30 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 1.875rem !important;
   }
   .mx-md-30 {
-    margin-left: 3rem !important;
-    margin-right: 3rem !important;
+    margin-left: 1.875rem !important;
+    margin-right: 1.875rem !important;
   }
   .my-md-30 {
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
   }
   .mt-md-30 {
-    margin-top: 3rem !important;
+    margin-top: 1.875rem !important;
   }
   .mb-md-30 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 1.875rem !important;
   }
   .py-md-50 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
+    padding-top: 3.125rem !important;
+    padding-bottom: 3.125rem !important;
   }
   .px-md-50 {
-    padding-left: 5rem !important;
-    padding-right: 5rem !important;
+    padding-left: 3.125rem !important;
+    padding-right: 3.125rem !important;
   }
   .pt-md-50 {
-    padding-top: 5rem !important;
+    padding-top: 3.125rem !important;
   }
   .pb-md-50 {
-    padding-bottom: 5rem !important;
+    padding-bottom: 3.125rem !important;
   }
   .mx-md-50 {
-    margin-left: 5rem !important;
-    margin-right: 5rem !important;
+    margin-left: 3.125rem !important;
+    margin-right: 3.125rem !important;
   }
   .my-md-50 {
-    margin-top: 5rem !important;
-    margin-bottom: 5rem !important;
+    margin-top: 3.125rem !important;
+    margin-bottom: 3.125rem !important;
   }
   .mt-md-50 {
-    margin-top: 5rem !important;
+    margin-top: 3.125rem !important;
   }
   .mb-md-50 {
-    margin-bottom: 5rem !important;
+    margin-bottom: 3.125rem !important;
   }
   .py-md-100 {
-    padding-top: 10rem !important;
-    padding-bottom: 10rem !important;
+    padding-top: 6.25rem !important;
+    padding-bottom: 6.25rem !important;
   }
   .px-md-100 {
-    padding-left: 10rem !important;
-    padding-right: 10rem !important;
+    padding-left: 6.25rem !important;
+    padding-right: 6.25rem !important;
   }
   .pt-md-100 {
-    padding-top: 10rem !important;
+    padding-top: 6.25rem !important;
   }
   .pb-md-100 {
-    padding-bottom: 10rem !important;
+    padding-bottom: 6.25rem !important;
   }
   .mx-md-100 {
-    margin-left: 10rem !important;
-    margin-right: 10rem !important;
+    margin-left: 6.25rem !important;
+    margin-right: 6.25rem !important;
   }
   .my-md-100 {
-    margin-top: 10rem !important;
-    margin-bottom: 10rem !important;
+    margin-top: 6.25rem !important;
+    margin-bottom: 6.25rem !important;
   }
   .mt-md-100 {
-    margin-top: 10rem !important;
+    margin-top: 6.25rem !important;
   }
   .mb-md-100 {
-    margin-bottom: 10rem !important;
+    margin-bottom: 6.25rem !important;
   }
 }
 
@@ -903,14 +903,14 @@ button:focus {
 }
 
 .row {
-  margin-right: -1.5rem;
-  margin-left: -1.5rem;
+  margin-right: -0.9375rem;
+  margin-left: -0.9375rem;
 }
 
 .container-fluid,
 [class^="col-"] {
-  padding-right: 3rem;
-  padding-left: 3rem;
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
 }
 
 .heading1,
@@ -919,7 +919,7 @@ button:focus {
 .heading4,
 .heading5,
 .heading6 {
-  margin: 0 0 3rem 0;
+  margin: 0 0 1.875rem 0;
   font-weight: 400;
 }
 
@@ -927,36 +927,36 @@ button:focus {
 .heading2,
 .heading3,
 .heading5 {
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.125rem;
 }
 
 .heading4 {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.0625rem;
 }
 
 .heading1 {
-  font-size: 2.6rem;
-  line-height: 3.9rem;
+  font-size: 1.625rem;
+  line-height: 2.4375rem;
 }
 
 .heading3 {
-  font-size: 1.8rem;
-  line-height: 2.7rem;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
 }
 
 .heading4 {
-  font-size: 1.8rem;
-  line-height: 2.7rem;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
 }
 
 .heading5 {
-  font-size: 1.4rem;
-  line-height: 2.1rem;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
 }
 
 .text-desc {
   color: #7e7e7e;
-  line-height: 3rem;
+  line-height: 1.875rem;
   margin: 0;
 }
 
@@ -981,24 +981,24 @@ button:focus {
 }
 
 .fs-12 {
-  font-size: 1.2rem !important;
-  line-height: 1.8rem !important;
+  font-size: 0.75rem !important;
+  line-height: 1.125rem !important;
 }
 
 .fs-13 {
-  font-size: 1.3rem !important;
-  line-height: 2rem !important;
-  letter-spacing: 0.05rem !important;
+  font-size: 0.8125rem !important;
+  line-height: 1.25rem !important;
+  letter-spacing: 0.03125rem !important;
 }
 
 .fs-14 {
-  font-size: 1.4rem !important;
-  line-height: 3rem !important;
+  font-size: 0.875rem !important;
+  line-height: 1.875rem !important;
 }
 
 .fs-18 {
-  font-size: 1.8rem !important;
-  line-height: 2.7rem !important;
+  font-size: 1.125rem !important;
+  line-height: 1.6875rem !important;
 }
 
 .bg-grey {
@@ -1010,7 +1010,7 @@ button:focus {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 3.125rem 0;
 }
 
 img {
@@ -1020,15 +1020,15 @@ img {
 
 @media (min-width: 768px) {
   .heading1 {
-    font-size: 3.6rem;
-    line-height: 5.4rem;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
   }
   .heading3 {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
   }
   .section {
-    padding: 10rem 0;
+    padding: 6.25rem 0;
   }
 }
 
@@ -1057,12 +1057,12 @@ img {
 
 .thumb:hover .thumb-info .thumb-link {
   top: 40%;
-  margin-top: -5.5rem;
+  margin-top: -3.4375rem;
 }
 
 .thumb:hover .thumb-info .thumb-detail {
   bottom: 45%;
-  margin-bottom: -9rem;
+  margin-bottom: -5.625rem;
 }
 
 .thumb:hover .thumb-info .social-link {
@@ -1072,15 +1072,15 @@ img {
 .thumb .thumb-img .thumb-intro {
   position: absolute;
   right: 0;
-  bottom: 3rem;
+  bottom: 1.875rem;
   width: 70%;
-  padding: 1rem 2rem;
+  padding: 0.625rem 1.25rem;
   background: rgba(0, 0, 0, 0.7);
 }
 
 .thumb .thumb-info {
   background-color: rgba(255, 255, 255, 0.9);
-  border: 2rem solid rgba(0, 0, 0, 0.1);
+  border: 1.25rem solid rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
   left: 0;
@@ -1106,7 +1106,7 @@ img {
 }
 
 .thumb .thumb-info .thumb-detail {
-  padding: 0 2rem;
+  padding: 0 1.25rem;
   bottom: 0;
   transform: translateY(-55%);
 }
@@ -1116,10 +1116,10 @@ img {
 }
 
 .border-box {
-  border: 0.1rem solid #e9e9e9;
-  border-radius: 0.4rem;
-  padding: 3rem;
-  margin: 5rem 0 0;
+  border: 0.0625rem solid #e9e9e9;
+  border-radius: 0.25rem;
+  padding: 1.875rem;
+  margin: 3.125rem 0 0;
   position: relative;
   transition: all 0.3s;
 }
@@ -1132,14 +1132,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.4rem;
+  border-radius: 0.25rem;
   background: #222;
-  box-shadow: 0 0 0 1rem #fff;
+  box-shadow: 0 0 0 0.625rem #fff;
   position: absolute;
-  top: -3rem;
-  left: 3rem;
-  width: 6rem;
-  height: 6rem;
+  top: -1.875rem;
+  left: 1.875rem;
+  width: 3.75rem;
+  height: 3.75rem;
 }
 
 @media (min-width: 768px) {
@@ -1150,9 +1150,9 @@ img {
 
 .social-link a {
   color: #222;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  margin: 0 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0 0.625rem;
   transition: all 0.3s;
 }
 
@@ -1182,12 +1182,12 @@ img {
 
 [class^="icon-"].s-30,
 [class*=" icon-"].s-30 {
-  font-size: 3rem;
+  font-size: 1.875rem;
 }
 
 [class^="icon-"].s-35,
 [class*=" icon-"].s-35 {
-  font-size: 3.5rem;
+  font-size: 2.1875rem;
 }
 
 .icon-wine:before {
@@ -1217,7 +1217,7 @@ img {
   left: 0;
   width: 100%;
   z-index: 999;
-  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
@@ -1225,18 +1225,18 @@ img {
 }
 
 .navbar-dark .navbar-nav {
-  max-height: 40rem;
+  max-height: 25rem;
   overflow-y: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #333;
-  font-size: 1.3rem;
-  line-height: 2rem;
-  letter-spacing: 0.05rem;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.03125rem;
   text-transform: uppercase;
-  padding: 1.2rem 2rem;
-  border-top: solid 0.1rem #f0f0f0;
+  padding: 0.75rem 1.25rem;
+  border-top: solid 0.0625rem #f0f0f0;
   transition: all 0.3s;
 }
 
@@ -1246,30 +1246,30 @@ img {
 
 .navbar-dark .navbar-brand {
   padding: 0;
-  margin-right: 3rem;
+  margin-right: 1.875rem;
 }
 
 .navbar-dark .navbar-brand .logo {
   width: auto;
-  height: 5rem;
+  height: 3.125rem;
   transition: all 0.3s;
 }
 
 .navbar-dark .navbar-toggler {
   border: 0;
   padding: 0;
-  width: 2rem;
+  width: 1.25rem;
 }
 
 .navbar-dark .navbar-toggler em {
   background: #777;
-  width: 2rem;
-  height: 0.3rem;
+  width: 1.25rem;
+  height: 0calc-rem 30px;
   float: right;
 }
 
 .navbar-dark .navbar-toggler em + em {
-  margin: 0.35rem 0 0;
+  margin: 0.3 3.125rem 0 0;
 }
 
 @media (min-width: 768px) {
@@ -1281,13 +1281,13 @@ img {
   }
   .header.header-sticky {
     background: #fff;
-    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
   }
   .header.header-sticky .navbar-dark .navbar-nav .nav-link {
-    padding: 0 1.2rem;
+    padding: 0 0.75rem;
   }
   .header.header-sticky .navbar-dark .navbar-brand .logo {
-    height: 6rem;
+    height: 3.75rem;
   }
   .navbar-expand-md {
     flex-flow: row wrap;
@@ -1296,15 +1296,15 @@ img {
     margin-left: auto;
   }
   .navbar-dark .navbar-nav {
-    max-height: 40rem;
+    max-height: 25rem;
     overflow-y: auto;
   }
   .navbar-dark .navbar-nav .nav-link {
-    padding: 4rem 1.2rem;
+    padding: 2.5rem 0.75rem;
     border-top: 0;
   }
   .navbar-dark .navbar-brand .logo {
-    height: 10rem;
+    height: 6.25rem;
   }
 }
 
@@ -1325,26 +1325,26 @@ img {
 
 .carousel .carousel-indicators {
   align-items: center;
-  bottom: 2.2rem;
+  bottom: 1.375rem;
 }
 
 .carousel .carousel-indicators li {
   background-color: rgba(0, 0, 0, 0);
   background-clip: border-box;
-  border: 0.1rem solid #fff;
+  border: 0.0625rem solid #fff;
   border-radius: 50%;
   box-sizing: border-box;
-  margin: 0.2rem;
-  width: 1rem;
-  height: 1rem;
+  margin: 0.125rem;
+  width: 0.625rem;
+  height: 0.625rem;
   opacity: 1;
   transition: none;
 }
 
 .carousel .carousel-indicators li.active {
   background-color: #fff;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .carousel .carousel-control-prev,
@@ -1372,7 +1372,7 @@ img {
   }
   .carousel .carousel-control-prev,
   .carousel .carousel-control-next {
-    margin: 18rem 0 12rem;
+    margin: 11.25rem 0 7.5rem;
   }
 }
 
@@ -1381,7 +1381,7 @@ img {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
-  height: 65.7rem;
+  height: 41.0625rem;
   overflow: hidden;
   position: relative;
 }
@@ -1412,7 +1412,7 @@ img {
 }
 
 .team .team-item:hover .team-info .team-detail {
-  top: 3.5rem;
+  top: 2.1875rem;
 }
 
 .team .team-item:hover .team-info .social-link {
@@ -1422,15 +1422,15 @@ img {
 .team .team-item .team-img .team-intro {
   position: absolute;
   right: 0;
-  bottom: 3rem;
+  bottom: 1.875rem;
   width: 70%;
-  padding: 1rem 2rem;
+  padding: 0.625rem 1.25rem;
   background: rgba(0, 0, 0, 0.7);
 }
 
 .team .team-item .team-info {
   background-color: rgba(255, 255, 255, 0.9);
-  border: 2rem solid rgba(0, 0, 0, 0.1);
+  border: 1.25rem solid rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
   left: 0;
@@ -1449,7 +1449,7 @@ img {
 }
 
 .team .team-item .team-info .team-detail {
-  padding: 0 2rem;
+  padding: 0 1.25rem;
   top: 0;
 }
 
@@ -1469,12 +1469,12 @@ img {
 
 .portfolio .portfolio-filter .filter-item__link {
   color: #a9a8a8;
-  font-size: 1.3rem;
-  letter-spacing: 0.3rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.1875rem;
   text-transform: uppercase;
   cursor: pointer;
   display: inline-block;
-  margin: 0.9rem 1.5rem;
+  margin: 0.5625rem 0.9375rem;
 }
 
 .portfolio .portfolio-filter .filter-item__link:hover, .portfolio .portfolio-filter .filter-item__link.active {
@@ -1487,23 +1487,23 @@ img {
 }
 
 .portfolio .portfolio-list .portfolio-item {
-  padding: 1rem;
+  padding: 0.625rem;
   width: 50%;
 }
 
 .portfolio .promo-box {
   background-color: #222;
-  padding: 6rem 0;
+  padding: 3.75rem 0;
 }
 
 .portfolio .promo-box .btn-promo {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.0625rem;
   background: rgba(255, 255, 255, 0.2);
-  border-radius: 0.4rem;
-  padding: 1.5rem 3rem;
+  border-radius: 0.25rem;
+  padding: 0.9375rem 1.875rem;
   transition: all 0.3s;
 }
 
@@ -1517,7 +1517,7 @@ img {
 
 @media (min-width: 768px) {
   .portfolio .portfolio-filter .filter-item__link {
-    margin: 0 1.5rem;
+    margin: 0 0.9375rem;
   }
   .portfolio .portfolio-list .portfolio-item {
     width: 25%;

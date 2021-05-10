@@ -5,7 +5,7 @@
 .heading4,
 .heading5,
 .heading6 {
-  margin: 0 0 3rem 0;
+  margin: 0 0 calc-rem(30px) 0;
   font-weight: 400;
 }
 
@@ -13,38 +13,38 @@
 .heading2,
 .heading3,
 .heading5 {
-  letter-spacing: 0.2rem;
+  letter-spacing: calc-rem(2px);
 }
 
 .heading4 {
-  letter-spacing: 0.1rem;
+  letter-spacing: calc-rem(1px);
 }
 
 .heading1 {
-  font-size: 2.6rem;
-  line-height: 3.9rem;
+  font-size: calc-rem(26px);
+  line-height: calc-rem(39px);
 }
 
 .heading3 {
-  font-size: 1.8rem;
-  line-height: 2.7rem;
+  font-size: calc-rem(18px);
+  line-height: calc-rem(27px);
 }
 
 .heading4 {
-  font-size: 1.8rem;
-  line-height: 2.7rem;
+  font-size: calc-rem(18px);
+  line-height: calc-rem(27px);
 }
 
 .heading5 {
-  font-size: 1.4rem;
-  line-height: 2.1rem;
+  font-size: calc-rem(14px);
+  line-height: calc-rem(21px);
 }
 // End Heading
 
 // Begin Paragraph
 .text-desc {
   color: $color-grey;
-  line-height: 3rem;
+  line-height: calc-rem(30px);
 
   margin: 0;
 }
@@ -74,24 +74,24 @@
 
 // Begin Text Size
 .fs-12 {
-  font-size: 1.2rem !important;
-  line-height: 1.8rem !important;
+  font-size: calc-rem(12px) !important;
+  line-height: calc-rem(18px) !important;
 }
 
 .fs-13 {
-  font-size: 1.3rem !important;
-  line-height: 2rem !important;
-  letter-spacing: 0.05rem !important;
+  font-size: calc-rem(13px) !important;
+  line-height: calc-rem(20px) !important;
+  letter-spacing: calc-rem(0.5px) !important;
 }
 
 .fs-14 {
-  font-size: 1.4rem !important;
-  line-height: 3rem !important;
+  font-size: calc-rem(14px) !important;
+  line-height: calc-rem(30px) !important;
 }
 
 .fs-18 {
-  font-size: 1.8rem !important;
-  line-height: 2.7rem !important;
+  font-size: calc-rem(18px) !important;
+  line-height: calc-rem(27px) !important;
 }
 // End Text Size
 
@@ -107,7 +107,7 @@
 
 // Begin Section
 .section {
-  padding: 5rem 0;
+  padding: calc-rem(50px) 0;
 }
 // End Section
 
@@ -122,19 +122,19 @@ img {
 @media (min-width: 768px) {
   // Begin Heading
   .heading1 {
-    font-size: 3.6rem;
-    line-height: 5.4rem;
+    font-size: calc-rem(36px);
+    line-height: calc-rem(54px);
   }
 
   .heading3 {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
+    font-size: calc-rem(24px);
+    line-height: calc-rem(36px);
   }
   // End Heading
 
   // Begin Section
   .section {
-    padding: 10rem 0;
+    padding: calc-rem(100px) 0;
   }
   // End Section
 }

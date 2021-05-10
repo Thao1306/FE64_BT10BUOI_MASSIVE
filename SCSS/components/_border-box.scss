@@ -1,10 +1,10 @@
 // Begin Border Box
 .border-box {
-  border: 0.1rem solid $border-box;
-  border-radius: 0.4rem;
+  border: calc-rem(1px) solid $border-box;
+  border-radius: calc-rem(4px);
 
-  padding: 3rem;
-  margin: 5rem 0 0;
+  padding: calc-rem(30px);
+  margin: calc-rem(50px) 0 0;
 
   position: relative;
 
@@ -21,16 +21,16 @@
     align-items: center;
     justify-content: center;
 
-    border-radius: 0.4rem;
+    border-radius: calc-rem(4px);
     background: $color-shaft;
-    box-shadow: 0 0 0 1rem $color-white;
+    box-shadow: 0 0 0 calc-rem(10px) $color-white;
 
     position: absolute;
-    top: -3rem;
-    left: 3rem;
+    top: calc-rem(-30px);
+    left: calc-rem(30px);
 
-    width: 6rem;
-    height: 6rem;
+    width: calc-rem(60px);
+    height: calc-rem(60px);
   }
 }
 // End Border Box

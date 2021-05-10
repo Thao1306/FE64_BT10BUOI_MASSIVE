@@ -8,12 +8,12 @@
 
       .thumb-link {
         top: 40%;
-        margin-top: -5.5rem;
+        margin-top: calc-rem(-55px);
       }
 
       .thumb-detail {
         bottom: 45%;
-        margin-bottom: -9rem;
+        margin-bottom: calc-rem(-90px);
       }
 
       .social-link {
@@ -26,11 +26,11 @@
     .thumb-intro {
       position: absolute;
       right: 0;
-      bottom: 3rem;
+      bottom: calc-rem(30px);
 
       width: 70%;
 
-      padding: 1rem 2rem;
+      padding: calc-rem(10px) calc-rem(20px);
 
       background: rgba(0, 0, 0, 0.7);
     }
@@ -39,7 +39,7 @@
   .thumb-info {
     background-color: rgba(255, 255, 255, 0.9);
 
-    border: 2rem solid rgba(0, 0, 0, 0.1);
+    border: calc-rem(20px) solid rgba(0, 0, 0, 0.1);
 
     position: absolute;
     top: 0;
@@ -73,7 +73,7 @@
     }
 
     .thumb-detail {
-      padding: 0 2rem;
+      padding: 0 calc-rem(20px);
       bottom: 0;
 
       -webkit-transform: translateY(-55%);

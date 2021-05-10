@@ -18,20 +18,20 @@
   .carousel-indicators {
     align-items: center;
 
-    bottom: 2.2rem;
+    bottom: calc-rem(22px);
 
     li {
       background-color: rgba(0, 0, 0, 0);
       background-clip: border-box;
 
-      border: 0.1rem solid $color-white;
+      border: calc-rem(1px) solid $color-white;
       border-radius: 50%;
       box-sizing: border-box;
 
-      margin: 0.2rem;
+      margin: calc-rem(2px);
 
-      width: 1rem;
-      height: 1rem;
+      width: calc-rem(10px);
+      height: calc-rem(10px);
 
       opacity: 1;
 
@@ -40,8 +40,8 @@
       &.active {
         background-color: $color-white;
 
-        width: 1.2rem;
-        height: 1.2rem;
+        width: calc-rem(12px);
+        height: calc-rem(12px);
       }
     }
   }
@@ -79,7 +79,7 @@
 
     .carousel-control-prev,
     .carousel-control-next {
-      margin: 18rem 0 12rem;
+      margin: calc-rem(180px) 0 calc-rem(120px);
     }
   }
   // End Carousel
