@@ -10,6 +10,22 @@
 
   overflow: visible;
 
+  &.active {
+    .progress-bar {
+      &.per-80 {
+        width: 80%;
+      }
+
+      &.per-90 {
+        width: 90%;
+      }
+
+      &.per-75 {
+        width: 75%;
+      }
+    }
+  }
+
   + .progress {
     margin: calc-rem(50px) 0 0;
   }
