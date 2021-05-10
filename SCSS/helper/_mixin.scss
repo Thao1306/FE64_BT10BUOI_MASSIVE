@@ -1,14 +1,12 @@
-@mixin title() {
-  margin-bottom: 100px;
+// massive__blog, core-feature, blog :  Title
+@mixin title() {  
   h4 {
     font-weight: 400;
     letter-spacing: 2px;
     padding-bottom: 25px;
-  }
-  @media screen and (max-width: 767px) {
-    margin-bottom: 100px;
-  }
+  }  
 }
+// Parallax-slider
 @mixin parallax() {
   height: 100%;
   background-attachment: fixed;
@@ -16,6 +14,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+// Blog
 @mixin blog__img() {
   content: "";
   position: absolute;
