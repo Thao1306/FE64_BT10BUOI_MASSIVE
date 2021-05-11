@@ -10,20 +10,20 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  
+
   <!-- Font Family -->
   <link rel="stylesheet"
     href="http://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200"
     type="text/css" />
-  
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
-  
+
   <!-- Aminate -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  
+
   <!-- Slick -->
   <link rel="stylesheet" href="./lib/slick/slick.css" />
   <link rel="stylesheet" href="./lib/slick/slick-theme.css" />
@@ -51,7 +51,9 @@
     <header class="header header-overlay">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-dark">
-          <a class="navbar-brand" href="#"><img src="./img/logo.png" class="logo" alt="Massive logo" /></a>
+          <a class="navbar-brand" href="./index.html">
+            <img src="./img/logo.png" class="logo" alt="Massive logo" />
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <em></em><em></em><em></em>
           </button>
@@ -573,7 +575,7 @@
     <!-- Massive services -->
     <section id="services" class="section">
       <div class="title container-fluid text-center">
-        <div class="row ">
+        <div class="row">
           <div class="col-md-8 mx-auto mb-50 mb-md-100">
             <h4>MASSIVE SERVICES</h4>
             <p class="text-secondary">
@@ -585,7 +587,7 @@
         </div>
       </div>
       <div class="services__content container-fluid">
-        <div class="row mx-0 mx-md-50">
+        <div class="row">
           <div class="services__detail col-md-4 border border-light text-center animate__animated animate__zoomIn">
             <i class="far fa-lightbulb"></i>
             <h5>CREATIVE DESIGN</h5>
@@ -715,10 +717,10 @@
           <img src="./img/tab-1.png" alt="" class="w-100" />
         </div>
         <div class="core-feature__right col-12 col-md-6">
-          <div class="content row mx-2 mb-md-50 mb-25 animate__animated animate__slideInRight">
+          <div class="content row mx-2 my-3 animate__animated animate__slideInRight">
             <div class="container">
               <p class="number mb-2">01</p>
-              <h4>MEGA MENU</h4>
+              <h6>MEGA MENU</h6>
               <p class="text-secondary mt-4">
                 Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque
                 et porttitor. Praesent sed nisi eleifend. Pellentesque eu quam
@@ -726,10 +728,10 @@
               </p>
             </div>
           </div>
-          <div class="content row mx-2 mb-md-50 mb-25 animate__animated animate__slideInRight animate__slow">
+          <div class="content row mx-2 my-3 animate__animated animate__slideInRight animate__slow">
             <div class="container">
               <p class="number mb-2">02</p>
-              <h4>UNLIMITED PORTFOLIO GRID</h4>
+              <h6>UNLIMITED PORTFOLIO GRID</h6>
               <p class="text-secondary mt-4">
                 Pellentesque eu quam sem, ac malesuada leo sem quam pellente.
                 Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque
@@ -737,10 +739,10 @@
               </p>
             </div>
           </div>
-          <div class="content row mx-2 mb-md-50 mb-25 animate__animated animate__slideInRight animate__slower">
+          <div class="content row mx-2 my-3 animate__animated animate__slideInRight animate__slower">
             <div class="container">
               <p class="number mb-2">03</p>
-              <h4>HUGE SHORTCODE</h4>
+              <h6>HUGE SHORTCODE</h6>
               <p class="text-secondary mt-4">
                 Augue at maximus Pellentesque eu quam sem, ac malesuada leo sem
                 quam pellente. vestibulum. Nam pulvinar vitae neque et
@@ -798,7 +800,7 @@
         </div>
       </div>
       <div class="blog__content container-fluid">
-        <div class="row mx-0 mx-md-50">
+        <div class="row">
           <div class="blog__img col-md-4">
             <img src="./img/p1.jpg" alt="" />
           </div>
@@ -817,7 +819,7 @@
             <img src="./img/p3.jpg" alt="" />
           </div>
         </div>
-        <div class="row mx-0 mx-md-50">
+        <div class="row">
           <div class="blog__text col-md-4">
             <div class="text-white">
               <span class="border-bottom border-dark">JULY 29,</span>
@@ -1200,8 +1202,6 @@
       loop: true,
       margin: 10,
       nav: true,
-      autoplay:true,
-      autoplayTimeout:2000,
       responsive: {
         0: {
           items: 1,
@@ -1221,8 +1221,6 @@
       loop: true,
       margin: 10,
       nav: true,
-      autoplay:true,
-      autoplayTimeout:2000,
       responsive: {
         0: {
           items: 1,
@@ -1246,4 +1244,5 @@
   <!-- Main Javascript -->
   <script src="./js/main.js"></script>
 </body>
+
 </html>
