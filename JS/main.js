@@ -40,13 +40,13 @@ var mixer = mixitup(portfolioList);
 var handleProgressBar = function () {
   var progressBars = document.getElementsByClassName("js-progress-bar");
   var skillSection = document.getElementById("skill");
-  
+
   Array.from(progressBars).forEach((bar) => {
     var windowTop = window.scrollY;
     var windowBottom = windowTop + window.innerHeight;
 
-   // Scroll when reach to number "70%, 80%, 90%, ..." => minus about 100px     
-    var eleTop = skillSection.offsetTop - 100;
+    // Scroll when reach to number "70%, 80%, 90%, ..." => minus about 50px
+    var eleTop = skillSection.offsetTop - 50;
     var eleBottom = eleTop + skillSection.clientHeight;
 
     if (eleBottom <= windowBottom && eleTop >= windowTop) {
