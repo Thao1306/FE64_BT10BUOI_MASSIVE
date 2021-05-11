@@ -889,9 +889,38 @@ button:focus {
 
 .container,
 .container-fluid,
+[class^="col"],
 [class^="col-"] {
   padding-right: 1.875rem;
   padding-left: 1.875rem;
+}
+
+.container-sm {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+.container-sm .row {
+  margin-right: -0.9375rem;
+  margin-left: -0.9375rem;
+}
+
+.container-sm .row [class^="col"],
+.container-sm .row [class^="col-"] {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+@media (min-width: 768px) {
+  .row-md-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .row-md-0 [class^="col"],
+  .row-md-0 [class^="col-"] {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 }
 
 .section1 {

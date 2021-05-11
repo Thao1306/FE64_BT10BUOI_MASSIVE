@@ -29,11 +29,44 @@ button:focus {
 
 .container,
 .container-fluid,
+[class^="col"],
 [class^="col-"] {
   padding-right: calc-rem(30px);
   padding-left: calc-rem(30px);
 }
+
+.container-sm {
+  padding-right: calc-rem(15px);
+  padding-left: calc-rem(15px);
+
+  .row {
+    margin-right: calc-rem(-15px);
+    margin-left: calc-rem(-15px);
+
+    [class^="col"],
+    [class^="col-"] {
+      padding-right: calc-rem(15px);
+      padding-left: calc-rem(15px);
+    }
+  }
+}
 // End Reset Boostrap Properties
+
+// @Media
+@media (min-width: 768px) {
+  // Begin Reset Boostrap Properties
+  .row-md-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+
+    [class^="col"],
+    [class^="col-"] {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+  // End Reset Boostrap Properties
+}
 
 // chau
 .section1 {
