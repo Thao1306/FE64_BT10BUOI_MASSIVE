@@ -118,7 +118,7 @@ $letterList: 1, 2, 3, 4, 6;
 @media (min-width: 768px) {
   // Begin Margin & Padding
   $marginPaddingList: 0, 5, 10, 20, 25, 30, 50, 100;
-
+  
   @each $number in $marginPaddingList {
     .py-md-#{$number} {
       padding-top: $number/16 + rem !important;
@@ -156,6 +156,7 @@ $letterList: 1, 2, 3, 4, 6;
       margin-bottom: $number/16 + rem !important;
     }
   }
+  
   // End Margin & Padding
 }
 

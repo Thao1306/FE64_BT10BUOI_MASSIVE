@@ -1,12 +1,37 @@
-#video{
-    h3{
-        @include form_h3();
-    };
-    p {
-        @include form_p();
-    };
-    .video {
-        padding-top: 100px ;
-        margin: 0 auto;
-    }
-};
+#video {
+  h3 {
+    @include form_h3();
+  }
+  p {
+    @include form_p();
+    margin-bottom: 50px;
+  }
+  .video_item {     
+    width: 80%;
+    max-width: 640px;
+    margin: 0 auto;
+
+  }
+  .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video iframe,
+  .video object,
+  .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+//   iframe {
+//     width: auto;
+//     height: auto;
+//     // width="560" height="315"
+//   }
+}
