@@ -1,15 +1,11 @@
-/*==============================================
-  Init Window Scroll Event
-===============================================*/
+// Init Window Scroll Event
 $(window).scroll(function () {
   handleStickyHeader();
   handleProgressBar();
   scrollFunction();
 });
 
-/*==============================================
-  Add Sticky Header
-===============================================*/
+// Add Sticky Header
 var handleStickyHeader = function () {
   if ($(window).scrollTop() >= 100) {
     $(".header").addClass("header-sticky");
@@ -18,14 +14,10 @@ var handleStickyHeader = function () {
   }
 };
 
-/*==============================================
-  Init Wow
-===============================================*/
+// Init Wow
 new WOW().init();
 
-/*==============================================
-  Init Portfolio Popup
-===============================================*/
+// Init Portfolio Popup
 $(".js-portfolio-popup").magnificPopup({
   type: "image",
   gallery: {
@@ -40,24 +32,22 @@ $(".js-portfolio-popup2").magnificPopup({
   },
 });
 
-/*==============================================
-  Init Portfolio Filter
-===============================================*/
+// Init Portfolio Filter
 var portfolioList = $(".js-portfolio-list");
 var mixer = mixitup(portfolioList);
 
-/*==============================================
-  Handle Progress Bar
-===============================================*/
+// Handle Progress Bar
 var handleProgressBar = function () {
   var progressBars = document.getElementsByClassName("js-progress-bar");
-
+  var skillSection = document.getElementById("skill");
+  
   Array.from(progressBars).forEach((bar) => {
     var windowTop = window.scrollY;
     var windowBottom = windowTop + window.innerHeight;
 
-    var eleTop = bar.offsetTop - 20;
-    var eleBottom = eleTop + bar.clientHeight;
+   // Scroll when reach to number "70%, 80%, 90%, ..." => minus about 100px     
+    var eleTop = skillSection.offsetTop - 100;
+    var eleBottom = eleTop + skillSection.clientHeight;
 
     if (eleBottom <= windowBottom && eleTop >= windowTop) {
       bar.classList.add("active");
