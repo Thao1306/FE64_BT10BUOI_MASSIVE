@@ -34,3 +34,20 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+    #subscribe{
+        form{
+            display: block;
+            input{
+                width: 100%;
+            }
+            button{
+                width: 100%;
+                margin: 0;
+                margin-top: 15px;
+            }
+        }
+        
+    }
+}
