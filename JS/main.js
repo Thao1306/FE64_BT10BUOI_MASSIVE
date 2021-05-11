@@ -45,11 +45,11 @@ var handleProgressBar = function () {
     var windowTop = window.scrollY;
     var windowBottom = windowTop + window.innerHeight;
 
-    // Scroll when reach to number "70%, 80%, 90%, ..." => minus about 50px
-    var eleTop = skillSection.offsetTop - 50;
+    // Scroll when reach to number "70%, 80%, 90%, ..." => minus about 36px
+    var eleTop = skillSection.offsetTop - 36;
     var eleBottom = eleTop + skillSection.clientHeight;
 
-    if (eleBottom <= windowBottom && eleTop >= windowTop) {
+    if (eleBottom <= windowBottom && eleTop <= windowTop) {
       bar.classList.add("active");
     }
   });
