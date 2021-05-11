@@ -1,22 +1,22 @@
 #count {
-  background-image: url(./../../img/bg2.jpg);
+  background-image: url("./../img/bg2.jpg");
   @include parallax();
   .row {
     padding: 11rem 0;
   }
   .count__content {
-      i {
-        font-size: 40px;
-        padding-top: 10px;
-      }
+    i {
+      font-size: 40px;
+      padding-top: 10px;
+    }
     .count__text {
       position: relative;
       padding-left: 5rem;
       letter-spacing: 1px;
       font-size: 14px;
       h1 {
-          font-weight: 400;
-          font-size: 35px;
+        font-weight: 400;
+        font-size: 35px;
       }
       &::before {
         content: "";

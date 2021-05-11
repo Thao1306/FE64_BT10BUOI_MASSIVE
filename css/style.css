@@ -605,7 +605,7 @@
 }
 
 #parallax .parallax__content {
-  background-image: url(./../../img/download.jpg);
+  background-image: url("./../img/download.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -624,7 +624,8 @@
   font-size: 13px;
 }
 
-#parallax .parallax__content .slick-prev, #parallax .parallax__content .slick-next {
+#parallax .parallax__content .slick-prev,
+#parallax .parallax__content .slick-next {
   display: none !important;
 }
 
@@ -726,7 +727,7 @@
 }
 
 #count {
-  background-image: url(./../../img/bg2.jpg);
+  background-image: url("./../img/bg2.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -1841,7 +1842,7 @@ img {
 
 #contact {
   /* The image used */
-  background-image: url(".././img/15.jpg");
+  background-image: url("./../img/15.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */

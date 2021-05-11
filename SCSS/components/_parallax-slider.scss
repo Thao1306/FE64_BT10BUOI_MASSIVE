@@ -1,7 +1,7 @@
 #parallax {
   .parallax__content {
-    background-image: url(./../../img/download.jpg);
-    @include parallax ();
+    background-image: url("./../img/download.jpg");
+    @include parallax();
     .slick-dots {
       bottom: 2rem;
       inline-size: fit-content;
@@ -11,8 +11,9 @@
         font-size: 13px;
       }
     }
-    .slick-prev, .slick-next {
-      display: none!important;
+    .slick-prev,
+    .slick-next {
+      display: none !important;
     }
     .parallax__detail {
       position: relative;
