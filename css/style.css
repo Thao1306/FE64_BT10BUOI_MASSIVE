@@ -678,7 +678,7 @@
 }
 
 #core-feature {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 #core-feature .title h4 {
@@ -691,6 +691,10 @@
   #core-feature .core-feature__content {
     display: block !important;
   }
+  #core-feature .core-feature__content .content .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 #core-feature .core-feature__right .content .number {
@@ -698,10 +702,11 @@
   font-size: 36px;
 }
 
-#core-feature .core-feature__right .content h6 {
+#core-feature .core-feature__right .content h4 {
   font-weight: 400;
   letter-spacing: 1px;
   padding: 3px 0;
+  font-size: 18px;
 }
 
 #core-feature .core-feature__right .button a {
@@ -881,6 +886,7 @@ button:focus {
   margin-left: -1.875rem;
 }
 
+.container,
 .container-fluid,
 [class^="col-"] {
   padding-right: 1.875rem;
@@ -1196,6 +1202,18 @@ img {
   overflow: visible;
 }
 
+.progress.active .progress-bar.per-80 {
+  width: 80%;
+}
+
+.progress.active .progress-bar.per-90 {
+  width: 90%;
+}
+
+.progress.active .progress-bar.per-75 {
+  width: 75%;
+}
+
 .progress + .progress {
   margin: 3.125rem 0 0;
 }
@@ -1243,7 +1261,6 @@ img {
 
 .header {
   background-color: #fff;
-  transition: all 0.3s;
 }
 
 .header.header-overlay {
@@ -1264,6 +1281,10 @@ img {
   overflow-y: auto;
 }
 
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+  color: #d6b15e;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: #333;
   font-size: 0.8125rem;
@@ -1275,7 +1296,7 @@ img {
   transition: all 0.3s;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: #d6b15e;
 }
 
@@ -1287,6 +1308,7 @@ img {
 .navbar-dark .navbar-brand .logo {
   width: auto;
   height: 3.125rem;
+  padding: 0.125rem 0;
   transition: all 0.3s;
 }
 
@@ -1299,12 +1321,12 @@ img {
 .navbar-dark .navbar-toggler em {
   background: #777;
   width: 1.25rem;
-  height: 0calc-rem 30px;
+  height: 0.1875rem;
   float: right;
 }
 
 .navbar-dark .navbar-toggler em + em {
-  margin: 0.3 3.125rem 0 0;
+  margin: 0.1875rem 0 0;
 }
 
 @media (min-width: 768px) {
@@ -1327,15 +1349,13 @@ img {
   .navbar-expand-md {
     flex-flow: row wrap;
   }
-  .navbar-expand-md .navbar-nav {
-    margin-left: auto;
-  }
   .navbar-dark .navbar-nav {
     max-height: 25rem;
     overflow-y: auto;
+    margin-left: auto;
   }
   .navbar-dark .navbar-nav .nav-link {
-    padding: 2.5rem 0.75rem;
+    padding: 2.5rem 0.8125rem;
     border-top: 0;
   }
   .navbar-dark .navbar-brand .logo {

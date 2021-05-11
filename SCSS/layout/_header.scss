@@ -2,8 +2,6 @@
 .header {
   background-color: $color-white;
 
-  transition: all 0.3s;
-
   &.header-overlay {
     position: fixed;
     top: 0;
@@ -27,6 +25,14 @@
     max-height: calc-rem(400px);
     overflow-y: auto;
 
+    .nav-item {
+      &.active {
+        .nav-link {
+          color: $color-primary-light;
+        }
+      }
+    }
+
     .nav-link {
       color: $color-black;
       font-size: calc-rem(13px);
@@ -38,11 +44,10 @@
 
       border-top: solid calc-rem(1px) $border-color;
 
-      transition: all 0.3s;
+      @include transition(all 0.3s);
 
       &:hover,
-      &:focus,
-      &.active {
+      &:focus {
         color: $color-primary-light;
       }
     }
@@ -56,7 +61,9 @@
       width: auto;
       height: calc-rem(50px);
 
-      transition: all 0.3s;
+      padding: calc-rem(2px) 0;
+
+      @include transition(all 0.3s);
     }
   }
 
@@ -71,12 +78,12 @@
       background: $color-boulder;
 
       width: calc-rem(20px);
-      height: 0calc-rem(30px);
+      height: calc-rem(3px);
 
       float: right;
 
       + em {
-        margin: 0.3 calc-rem(50px) 0 0;
+        margin: calc-rem(3px) 0 0;
       }
     }
   }
@@ -117,10 +124,6 @@
   // Begin Navbar
   .navbar-expand-md {
     flex-flow: row wrap;
-
-    .navbar-nav {
-      margin-left: auto;
-    }
   }
 
   .navbar-dark {
@@ -128,8 +131,10 @@
       max-height: calc-rem(400px);
       overflow-y: auto;
 
+      margin-left: auto;
+
       .nav-link {
-        padding: calc-rem(40px) calc-rem(12px);
+        padding: calc-rem(40px) calc-rem(13px);
 
         border-top: 0;
       }

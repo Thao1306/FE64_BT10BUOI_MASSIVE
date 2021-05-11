@@ -27,6 +27,7 @@ button:focus {
   margin-left: calc-rem(-30px);
 }
 
+.container,
 .container-fluid,
 [class^="col-"] {
   padding-right: calc-rem(30px);
@@ -34,7 +35,7 @@ button:focus {
 }
 // End Reset Boostrap Properties
 
-// chau 
+// chau
 .section1 {
   padding: 100px 0;
   font-size: 15px !important;

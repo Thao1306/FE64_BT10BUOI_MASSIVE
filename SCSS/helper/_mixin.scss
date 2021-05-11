@@ -1,10 +1,10 @@
 // massive__blog, core-feature, blog :  Title
-@mixin title() {  
+@mixin title() {
   h4 {
     font-weight: 400;
     letter-spacing: 2px;
     padding-bottom: 25px;
-  }  
+  }
 }
 // Parallax-slider
 @mixin parallax() {
@@ -114,6 +114,15 @@ $letterList: 1, 2, 3, 4, 6;
 }
 // End Letter Spacing
 
+// Begin Transition
+@mixin transition($property) {
+  -webkit-transition: $property;
+  -moz-transition: $property;
+  -ms-transition: $property;
+  transition: $property;
+}
+// End Transition
+
 // @Media
 @media (min-width: 768px) {
   // Begin Margin & Padding
@@ -160,7 +169,7 @@ $letterList: 1, 2, 3, 4, 6;
   // End Margin & Padding
 }
 
-// ===== Chau ==== 
+// ===== Chau ====
 @mixin form_h3 {
   letter-spacing: 2px;
 }
