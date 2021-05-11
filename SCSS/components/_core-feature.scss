@@ -1,12 +1,18 @@
 #core-feature {
   // margin: 5rem;
-  font-size: 14px;
+  font-size: 15px;
   .title {
     @include title();
   }
   @media screen and (max-width: 767px) {
     .core-feature__content {
       display: block !important;
+      .content {
+        .container {
+          padding-right: 0;
+          padding-left: 0;
+        }
+      }
     }
   }
 
@@ -16,10 +22,11 @@
         color: #e1e1e1;
         font-size: 36px;
       }
-      h6 {
+      h4 {
         font-weight: 400;
         letter-spacing: 1px;
         padding: 3px 0;
+        font-size: 18px;
       }
     }
     .button {
