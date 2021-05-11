@@ -71,12 +71,12 @@
       background: $color-boulder;
 
       width: calc-rem(20px);
-      height: 0calc-rem(30px);
+      height: calc-rem(3px);
 
       float: right;
 
       + em {
-        margin: 0.3 calc-rem(50px) 0 0;
+        margin: calc-rem(3px) 0 0;
       }
     }
   }
