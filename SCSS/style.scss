@@ -1,25 +1,16 @@
 @import "./helper/varriables";
 @import "./helper/mixin";
+@import "./base/all";
+@import "./components/header";
+@import "./components/carousel";
+@import "./components/skill";
+@import "./components/team";
+@import "./components/portfolio";
 @import "./components/massive-services";
 @import "./components/parallax-slider";
 @import "./components/core-feature";
 @import "./components/count";
 @import "./components/blog";
-
-// @Reset
-@import "./base/reset";
-
-// @Util
-@import "./base/util";
-
-// @Components
-@import "./components/all";
-
-// @Layout
-@import "./layout/all";
-
-
-// ====== Chau ===== 
 @import "./components/testimonial";
 @import "./components/video";
 @import "./components/news";
