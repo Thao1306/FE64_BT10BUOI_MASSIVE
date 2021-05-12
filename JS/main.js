@@ -1,3 +1,6 @@
+// Init Wow
+new WOW().init();
+
 // Init Window Scroll Event
 $(window).scroll(function () {
   handleStickyHeader();
@@ -8,14 +11,26 @@ $(window).scroll(function () {
 // Add Sticky Header
 var handleStickyHeader = function () {
   if ($(window).scrollTop() >= 100) {
-    $(".header").addClass("header-sticky");
+    $("#header").addClass("header-sticky");
   } else {
-    $(".header").removeClass("header-sticky");
+    $("#header").removeClass("header-sticky");
   }
 };
 
-// Init Wow
-new WOW().init();
+// Scroll to each section
+$(document).on("click", 'a[href^="#"]', function (e) {
+  e.preventDefault();
+
+  var id = $(this).attr("href");
+  var $id = $(id);
+  var pos = $id.offset().top;
+
+  if ($id.length === 0) {
+    return;
+  }
+
+  $("body, html").animate({ scrollTop: pos }, 1000);
+});
 
 // Init Portfolio Popup
 $(".js-portfolio-popup").magnificPopup({

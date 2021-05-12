@@ -1,4 +1,4 @@
-#PRICE_TABLE {
+#price-table {
   .title {
     h3 {
       @include form_h3();
@@ -55,7 +55,7 @@
     .predium {
       background-color: #222;
       h2 {
-        color: $color-text-gold ;
+        color: $color-text-gold;
       }
       .mid {
         .dola {
@@ -66,11 +66,11 @@
         }
       }
       .bot {
-        a {          
+        a {
           background-color: $color-text-fff;
         }
-        a:hover{
-            background-color: $color-text-gold ;
+        a:hover {
+          background-color: $color-text-gold;
         }
         li {
           color: $color-p !important;
