@@ -25,14 +25,6 @@
     max-height: calc-rem(400px);
     overflow-y: auto;
 
-    .nav-item {
-      &.active {
-        .nav-link {
-          color: $color-primary-light;
-        }
-      }
-    }
-
     .nav-link {
       color: $color-black;
       font-size: calc-rem(13px);
@@ -46,8 +38,12 @@
 
       @include transition(all 0.3s);
 
-      &:hover,
       &:focus {
+        color: $color-black;
+      }
+
+      &:hover,
+      &.active {
         color: $color-primary-light;
       }
     }

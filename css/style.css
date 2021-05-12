@@ -573,6 +573,9 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
 }
 
 dl,
@@ -633,10 +636,6 @@ button:focus {
   font-size: 15px !important;
   font-weight: 400 !important;
   line-height: 1.5 !important;
-}
-
-.wrapper {
-  overflow: hidden;
 }
 
 .heading1,
@@ -1031,10 +1030,6 @@ img {
   overflow-y: auto;
 }
 
-.navbar-dark .navbar-nav .nav-item.active .nav-link {
-  color: #d6b15e;
-}
-
 .navbar-dark .navbar-nav .nav-link {
   color: #333;
   font-size: 0.8125rem;
@@ -1046,7 +1041,11 @@ img {
   transition: all 0.3s;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active {
   color: #d6b15e;
 }
 

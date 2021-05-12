@@ -29,7 +29,7 @@ $(document).on("click", 'a[href^="#"]', function (e) {
     return;
   }
 
-  $("body, html").animate({ scrollTop: pos }, 1000);
+  $("body, html").animate({ scrollTop: pos }, 500);
 });
 
 // Init Portfolio Popup
