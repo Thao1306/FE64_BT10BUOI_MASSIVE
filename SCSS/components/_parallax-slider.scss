@@ -20,6 +20,9 @@
 
       .col-md-4 {
         height: 535px;
+        @media screen and (max-width: 767px) {
+          display: none;
+        }
         img {
           position: absolute;
           bottom: 0;
@@ -27,6 +30,10 @@
       }
       .col-md-8 {
         padding: 5rem 0 0 5rem;
+        @media screen and (max-width: 767px) {
+          text-align: center;
+          padding: 5rem 0;
+        }
       }
       h5 {
         color: #d6b161;
