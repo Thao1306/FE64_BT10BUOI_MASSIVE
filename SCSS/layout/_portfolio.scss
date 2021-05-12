@@ -8,7 +8,7 @@
     .filter-item {
       display: inline-block;
 
-      &__link {
+      .item-link {
         color: $color-chalice;
         font-size: calc-rem(13px);
         letter-spacing: calc-rem(3px);
@@ -75,7 +75,7 @@
   .portfolio {
     .portfolio-filter {
       .filter-item {
-        &__link {
+        .item-link {
           margin: 0 calc-rem(15px);
         }
       }

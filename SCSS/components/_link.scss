@@ -11,8 +11,15 @@
 
   &.link-primary {
     &:hover {
-      color: $color-primary !important;
-      text-decoration: none;
+      color: $color-primary;
+    }
+  }
+
+  &.link-light {
+    color: $color-boulder;
+
+    &:hover {
+      color: $color-primary;
     }
   }
 }

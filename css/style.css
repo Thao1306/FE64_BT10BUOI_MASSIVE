@@ -998,6 +998,10 @@ button:focus {
   color: #222;
 }
 
+.text-boulder {
+  color: #757575;
+}
+
 .fs-12 {
   font-size: 0.75rem !important;
   line-height: 1.125rem !important;
@@ -1107,8 +1111,15 @@ img {
 }
 
 .link.link-primary:hover {
-  color: #d6b161 !important;
-  text-decoration: none;
+  color: #d6b161;
+}
+
+.link.link-light {
+  color: #757575;
+}
+
+.link.link-light:hover {
+  color: #d6b161;
 }
 
 .thumb {
@@ -1350,7 +1361,7 @@ img {
 }
 
 .navbar-dark .navbar-toggler em {
-  background: #777;
+  background: #757575;
   width: 1.25rem;
   height: 0.1875rem;
   float: right;
@@ -1551,7 +1562,7 @@ img {
   display: inline-block;
 }
 
-.portfolio .portfolio-filter .filter-item__link {
+.portfolio .portfolio-filter .filter-item .item-link {
   color: #a9a8a8;
   font-size: 0.8125rem;
   letter-spacing: 0.1875rem;
@@ -1561,7 +1572,7 @@ img {
   margin: 0.5625rem 0.9375rem;
 }
 
-.portfolio .portfolio-filter .filter-item__link:hover, .portfolio .portfolio-filter .filter-item__link.active {
+.portfolio .portfolio-filter .filter-item .item-link:hover, .portfolio .portfolio-filter .filter-item .item-link.active {
   color: #222;
 }
 
@@ -1600,7 +1611,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .portfolio .portfolio-filter .filter-item__link {
+  .portfolio .portfolio-filter .filter-item .item-link {
     margin: 0 0.9375rem;
   }
   .portfolio .portfolio-list .portfolio-item {
