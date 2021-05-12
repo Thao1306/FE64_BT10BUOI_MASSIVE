@@ -8,6 +8,12 @@
     .filter-item {
       display: inline-block;
 
+      &.active {
+        .item-link {
+          color: $color-shaft;
+        }
+      }
+
       .item-link {
         color: $color-chalice;
         font-size: calc-rem(13px);
@@ -20,8 +26,7 @@
 
         margin: calc-rem(9px) calc-rem(15px);
 
-        &:hover,
-        &.active {
+        &:hover {
           color: $color-shaft;
         }
       }

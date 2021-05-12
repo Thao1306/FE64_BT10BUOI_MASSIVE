@@ -1269,6 +1269,10 @@ img {
   display: inline-block;
 }
 
+.portfolio .portfolio-filter .filter-item.active .item-link {
+  color: #222;
+}
+
 .portfolio .portfolio-filter .filter-item .item-link {
   color: #a9a8a8;
   font-size: 0.8125rem;
@@ -1279,7 +1283,7 @@ img {
   margin: 0.5625rem 0.9375rem;
 }
 
-.portfolio .portfolio-filter .filter-item .item-link:hover, .portfolio .portfolio-filter .filter-item .item-link.active {
+.portfolio .portfolio-filter .filter-item .item-link:hover {
   color: #222;
 }
 

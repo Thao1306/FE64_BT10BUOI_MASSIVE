@@ -51,6 +51,14 @@ $(".js-portfolio-popup2").magnificPopup({
 var portfolioList = $(".js-portfolio-list");
 var mixer = mixitup(portfolioList);
 
+$(".js-portfolio-filter").on("click", ".item-link", function (e) {
+  e.preventDefault();
+
+  var $this = $(this);
+
+  $this.parent().addClass("active").siblings().removeClass("active");
+});
+
 // Handle Progress Bar
 var handleProgressBar = function () {
   var progressBars = document.getElementsByClassName("js-progress-bar");
