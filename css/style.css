@@ -568,7 +568,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -869,6 +870,7 @@ img {
   width: 100%;
   height: 100%;
   opacity: 0;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -878,18 +880,21 @@ img {
   position: absolute;
   left: 0;
   width: 100%;
+  -webkit-transition: all 0.3s 0.2s;
   transition: all 0.3s 0.2s;
 }
 
 .thumb .thumb-info .thumb-link {
   position: absolute;
   top: 0;
+  -webkit-transform: translateY(45%);
   transform: translateY(45%);
 }
 
 .thumb .thumb-info .thumb-detail {
   padding: 0 1.25rem;
   bottom: 0;
+  -webkit-transform: translateY(-55%);
   transform: translateY(-55%);
 }
 
@@ -903,6 +908,7 @@ img {
   padding: 1.875rem;
   margin: 3.125rem 0 0;
   position: relative;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -911,12 +917,19 @@ img {
 }
 
 .border-box .box-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 0.25rem;
   background: #222;
-  box-shadow: 0 0 0 0.625rem #fff;
+  -webkit-box-shadow: 0 0 0 0.625rem #fff;
+          box-shadow: 0 0 0 0.625rem #fff;
   position: absolute;
   top: -1.875rem;
   left: 1.875rem;
@@ -935,6 +948,7 @@ img {
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0 0.625rem;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -976,6 +990,7 @@ img {
   padding: 0 0 0 0.625rem;
   position: relative;
   width: 0;
+  -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
 
@@ -1005,6 +1020,7 @@ img {
   bottom: -0.125rem;
   left: 50%;
   margin: 0 0 0 -0.15625rem;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -1018,7 +1034,8 @@ img {
   left: 0;
   width: 100%;
   z-index: 999;
-  box-shadow: 0 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
@@ -1038,6 +1055,7 @@ img {
   text-transform: uppercase;
   padding: 0.75rem 1.25rem;
   border-top: solid 0.0625rem #f0f0f0;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -1058,6 +1076,7 @@ img {
   width: auto;
   height: 3.125rem;
   padding: 0.125rem 0;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -1083,11 +1102,13 @@ img {
     background-color: transparent;
   }
   .header.header-overlay {
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .header.header-sticky {
     background: #fff;
-    box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
   }
   .header.header-sticky .navbar-dark .navbar-nav .nav-link {
     padding: 0 0.75rem;
@@ -1096,7 +1117,10 @@ img {
     height: 3.75rem;
   }
   .navbar-expand-md {
-    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
   }
   .navbar-dark .navbar-nav {
     max-height: 25rem;
@@ -1128,7 +1152,9 @@ img {
 }
 
 .carousel .carousel-indicators {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   bottom: 1.375rem;
 }
 
@@ -1137,11 +1163,13 @@ img {
   background-clip: border-box;
   border: 0.0625rem solid #fff;
   border-radius: 50%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0.125rem;
   width: 0.625rem;
   height: 0.625rem;
   opacity: 1;
+  -webkit-transition: none;
   transition: none;
 }
 
@@ -1239,6 +1267,7 @@ img {
   width: 100%;
   height: 100%;
   opacity: 0;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -1247,6 +1276,7 @@ img {
   position: absolute;
   left: 0;
   width: 100%;
+  -webkit-transition: all 0.3s 0.2s;
   transition: all 0.3s 0.2s;
 }
 
@@ -1260,9 +1290,14 @@ img {
 }
 
 .portfolio .portfolio-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .portfolio .portfolio-filter .filter-item {
@@ -1288,8 +1323,11 @@ img {
 }
 
 .portfolio .portfolio-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .portfolio .portfolio-list .portfolio-item {
@@ -1310,6 +1348,7 @@ img {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 0.25rem;
   padding: 0.9375rem 1.875rem;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -1318,7 +1357,8 @@ img {
 }
 
 .portfolio .promo-box .btn-promo:focus {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 @media (min-width: 768px) {
@@ -1354,6 +1394,7 @@ img {
 }
 
 #services .services__content .services__detail {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1380,6 +1421,8 @@ img {
 
 #parallax .parallax__content .slick-dots {
   bottom: 2rem;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
   inline-size: fit-content;
   right: 6rem;
 }
@@ -1444,6 +1487,7 @@ img {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1453,7 +1497,8 @@ img {
 }
 
 #parallax .parallax__content .parallax__detail .btn-secondary:focus {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 #core-feature {
@@ -1493,6 +1538,7 @@ img {
   font-size: 13px;
   margin: 10px;
   padding: 1rem 1.5rem;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1542,7 +1588,8 @@ img {
   height: 75px;
   width: 1px;
   background: rgba(255, 255, 255, 0.4);
-  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 
 #blog {
@@ -1573,7 +1620,8 @@ img {
   width: 15px;
   left: 50%;
   background-color: white;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   bottom: -7px;
 }
 
@@ -1585,7 +1633,8 @@ img {
   width: 15px;
   left: 50%;
   background-color: white;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   top: -7px;
 }
 
@@ -1601,6 +1650,7 @@ img {
 #blog .blog__content .blog__text h6 {
   font-weight: 400;
   padding: 1.5rem 0;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1609,6 +1659,7 @@ img {
 }
 
 #blog .blog__content .blog__text a {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1626,6 +1677,7 @@ img {
 #blog .blog__content .blog__read-more i {
   color: #bbb;
   text-decoration: none;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1788,6 +1840,7 @@ img {
   color: #222;
   border: 1px solid #e5e5e5;
   text-decoration: none;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -1849,14 +1902,19 @@ img {
 }
 
 #subscribe form {
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #subscribe form input {
   width: 50%;
   height: 52px;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   background: #fff;
   border: none;
 }
@@ -1975,7 +2033,8 @@ img {
 
 #drop_line input:focus,
 #drop_line textarea:focus {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border-color: black;
 }
 
@@ -2063,3 +2122,4 @@ footer .lots_of_fun {
   background-color: #555;
   /* Add a dark-grey background on hover */
 }
+/*# sourceMappingURL=style.css.map */
